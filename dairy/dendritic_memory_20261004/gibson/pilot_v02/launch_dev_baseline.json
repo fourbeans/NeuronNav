@@ -1,0 +1,71 @@
+{
+  "created": 1791070467.5299053,
+  "initial_free_mib": {
+    "0": 27940,
+    "1": 44511,
+    "2": 37286,
+    "3": 36848,
+    "4": 17052,
+    "5": 22798,
+    "6": 67107,
+    "7": 38534
+  },
+  "jobs": [
+    {
+      "pid": 4049338,
+      "gpu": 6,
+      "command": [
+        "/mnt/jfzn/miniconda3/envs/poni/bin/python",
+        "-u",
+        "-m",
+        "dendritic_nav.runners.collect_dend",
+        "--experiment",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02",
+        "--output",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/dev_baseline_000",
+        "--actor-id",
+        "0",
+        "--actors",
+        "2",
+        "--steps",
+        "25500",
+        "--role",
+        "dev",
+        "--seed",
+        "123",
+        "--episodes",
+        "50",
+        "--baseline"
+      ],
+      "log": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/logs_dev_baseline/dev_baseline_000.log"
+    },
+    {
+      "pid": 4049354,
+      "gpu": 6,
+      "command": [
+        "/mnt/jfzn/miniconda3/envs/poni/bin/python",
+        "-u",
+        "-m",
+        "dendritic_nav.runners.collect_dend",
+        "--experiment",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02",
+        "--output",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/dev_baseline_001",
+        "--actor-id",
+        "1",
+        "--actors",
+        "2",
+        "--steps",
+        "25500",
+        "--role",
+        "dev",
+        "--seed",
+        "124",
+        "--episodes",
+        "50",
+        "--baseline"
+      ],
+      "log": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/logs_dev_baseline/dev_baseline_001.log"
+    }
+  ]
+}

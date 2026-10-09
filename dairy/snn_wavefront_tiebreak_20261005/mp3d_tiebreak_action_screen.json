@@ -1,0 +1,226 @@
+{
+  "snapshots": 327,
+  "skipped": 3,
+  "changed_stg": 131,
+  "changed_action": 61,
+  "old_forward_to_new_turn": 41,
+  "old_turn_to_new_forward": 19,
+  "opposite_turn": 1,
+  "bends_reduced": 294,
+  "bends_increased": 1,
+  "mean_bend_delta": -16.061162079510705,
+  "max_abs_cost_difference": 7.958078640513122e-13,
+  "examples": [
+    {
+      "same_stg": false,
+      "same_action": true,
+      "old_action": 2,
+      "new_action": 2,
+      "old_bends": 9,
+      "new_bends": 2,
+      "old_length": 53,
+      "new_length": 53,
+      "changed_parents": 20,
+      "old_stg": [
+        190,
+        244
+      ],
+      "new_stg": [
+        194,
+        244
+      ],
+      "cost_difference": 0.0,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_21.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": true,
+      "old_action": 1,
+      "new_action": 1,
+      "old_bends": 45,
+      "new_bends": 7,
+      "old_length": 334,
+      "new_length": 334,
+      "changed_parents": 171,
+      "old_stg": [
+        264,
+        241
+      ],
+      "new_stg": [
+        264,
+        240
+      ],
+      "cost_difference": 5.684341886080802e-14,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_101.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": false,
+      "old_action": 1,
+      "new_action": 3,
+      "old_bends": 27,
+      "new_bends": 6,
+      "old_length": 322,
+      "new_length": 322,
+      "changed_parents": 219,
+      "old_stg": [
+        384,
+        264
+      ],
+      "new_stg": [
+        384,
+        267
+      ],
+      "cost_difference": 0.0,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_141.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": false,
+      "old_action": 1,
+      "new_action": 3,
+      "old_bends": 28,
+      "new_bends": 7,
+      "old_length": 164,
+      "new_length": 164,
+      "changed_parents": 102,
+      "old_stg": [
+        121,
+        237
+      ],
+      "new_stg": [
+        121,
+        233
+      ],
+      "cost_difference": 2.842170943040401e-14,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_181.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": false,
+      "old_action": 1,
+      "new_action": 3,
+      "old_bends": 35,
+      "new_bends": 6,
+      "old_length": 324,
+      "new_length": 324,
+      "changed_parents": 114,
+      "old_stg": [
+        195,
+        149
+      ],
+      "new_stg": [
+        199,
+        149
+      ],
+      "cost_difference": 0.0,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_221.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": true,
+      "old_action": 3,
+      "new_action": 3,
+      "old_bends": 33,
+      "new_bends": 7,
+      "old_length": 280,
+      "new_length": 280,
+      "changed_parents": 41,
+      "old_stg": [
+        156,
+        114
+      ],
+      "new_stg": [
+        156,
+        113
+      ],
+      "cost_difference": 5.684341886080802e-14,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_241.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": false,
+      "old_action": 2,
+      "new_action": 1,
+      "old_bends": 15,
+      "new_bends": 4,
+      "old_length": 191,
+      "new_length": 191,
+      "changed_parents": 20,
+      "old_stg": [
+        231,
+        236
+      ],
+      "new_stg": [
+        231,
+        233
+      ],
+      "cost_difference": 3.126388037344441e-13,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_261.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": false,
+      "old_action": 2,
+      "new_action": 1,
+      "old_bends": 73,
+      "new_bends": 12,
+      "old_length": 529,
+      "new_length": 529,
+      "changed_parents": 170,
+      "old_stg": [
+        180,
+        250
+      ],
+      "new_stg": [
+        183,
+        250
+      ],
+      "cost_difference": 0.0,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_321.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": false,
+      "old_action": 1,
+      "new_action": 3,
+      "old_bends": 73,
+      "new_bends": 15,
+      "old_length": 554,
+      "new_length": 554,
+      "changed_parents": 235,
+      "old_stg": [
+        230,
+        229
+      ],
+      "new_stg": [
+        230,
+        230
+      ],
+      "cost_difference": 1.1368683772161603e-13,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_361.npz"
+    },
+    {
+      "same_stg": false,
+      "same_action": true,
+      "old_action": 2,
+      "new_action": 2,
+      "old_bends": 59,
+      "new_bends": 14,
+      "old_length": 508,
+      "new_length": 508,
+      "changed_parents": 175,
+      "old_stg": [
+        276,
+        247
+      ],
+      "new_stg": [
+        276,
+        248
+      ],
+      "cost_difference": 1.1368683772161603e-13,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_381.npz"
+    }
+  ],
+  "caveat": "Offline snapshots only; a smoother equal-cost path need not improve navigation."
+}

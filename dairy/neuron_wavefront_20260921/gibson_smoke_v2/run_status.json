@@ -1,0 +1,56 @@
+[
+  {
+    "mode": "reference",
+    "scene": "Collierville",
+    "returncode": 0,
+    "elapsed_seconds": 72.18119144439697
+  },
+  {
+    "mode": "reference",
+    "scene": "Corozal",
+    "returncode": 0,
+    "elapsed_seconds": 224.5328974723816
+  },
+  {
+    "mode": "reference",
+    "scene": "Darden",
+    "returncode": 0,
+    "elapsed_seconds": 113.74353313446045
+  },
+  {
+    "mode": "guarded",
+    "scene": "Collierville",
+    "returncode": 0,
+    "elapsed_seconds": 72.03776454925537
+  },
+  {
+    "mode": "guarded",
+    "scene": "Corozal",
+    "returncode": 0,
+    "elapsed_seconds": 257.38140535354614
+  },
+  {
+    "mode": "guarded",
+    "scene": "Darden",
+    "returncode": 0,
+    "elapsed_seconds": 131.80712342262268
+  },
+  {
+    "mode": "neuron",
+    "scene": "Collierville",
+    "returncode": 0,
+    "elapsed_seconds": 71.84454727172852
+  },
+  {
+    "mode": "neuron",
+    "scene": "Corozal",
+    "returncode": 0,
+    "elapsed_seconds": 195.210223197937
+  },
+  {
+    "mode": "neuron",
+    "scene": "Darden",
+    "returncode": 0,
+    "elapsed_seconds": 133.94675827026367
+  }
+]

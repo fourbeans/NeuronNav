@@ -1,0 +1,13 @@
+{
+  "experiment": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02",
+  "output": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/dev_dend_001",
+  "role": "dev",
+  "actor_id": 1,
+  "actors": 2,
+  "steps": 25500,
+  "episodes": 50,
+  "seed": 124,
+  "checkpoint": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/learner/checkpoints/pilot_final.ckpt",
+  "baseline": false,
+  "visualize_every": 10
+}

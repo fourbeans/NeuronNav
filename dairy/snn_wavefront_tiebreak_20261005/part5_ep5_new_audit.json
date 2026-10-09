@@ -1,0 +1,322 @@
+{
+  "part": 5,
+  "episode": 5,
+  "plans": 10,
+  "actions": 10,
+  "poses": 10,
+  "stop_calls": 2,
+  "replan_calls": 0,
+  "no_path_calls": 0,
+  "action_counts": {
+    "0": 1,
+    "1": 4,
+    "2": 1,
+    "3": 4
+  },
+  "first_plans": [
+    {
+      "seq": 2501,
+      "stg": [
+        236.0,
+        244.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 3,
+      "old_stg": [
+        239.0,
+        244.0
+      ],
+      "tie_changed_parents": 4,
+      "tie_old_bends": 5,
+      "tie_new_bends": 2,
+      "no_path": null
+    },
+    {
+      "seq": 2502,
+      "stg": [
+        236.0,
+        240.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 3,
+      "old_stg": [
+        236.0,
+        240.0
+      ],
+      "tie_changed_parents": 1,
+      "tie_old_bends": 5,
+      "tie_new_bends": 3,
+      "no_path": null
+    },
+    {
+      "seq": 2503,
+      "stg": [
+        236.0,
+        236.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 3,
+      "old_stg": [
+        236.0,
+        240.0
+      ],
+      "tie_changed_parents": 17,
+      "tie_old_bends": 8,
+      "tie_new_bends": 1,
+      "no_path": null
+    },
+    {
+      "seq": 2504,
+      "stg": [
+        236.0,
+        238.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 3,
+      "old_stg": [
+        236.0,
+        238.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 1,
+      "tie_new_bends": 1,
+      "no_path": null
+    },
+    {
+      "seq": 2505,
+      "stg": [
+        236.0,
+        236.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 1,
+      "old_stg": [
+        236.0,
+        236.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    },
+    {
+      "seq": 2506,
+      "stg": [
+        231.0,
+        233.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 1,
+      "old_stg": [
+        231.0,
+        233.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    },
+    {
+      "seq": 2507,
+      "stg": [
+        228.0,
+        232.0
+      ],
+      "stop": true,
+      "replan": false,
+      "turn_action": 1,
+      "old_stg": [
+        228.0,
+        232.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    },
+    {
+      "seq": 2508,
+      "stg": [
+        223.0,
+        232.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 2,
+      "old_stg": [
+        223.0,
+        232.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    }
+  ],
+  "last_plans": [
+    {
+      "seq": 2503,
+      "stg": [
+        236.0,
+        236.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 3,
+      "old_stg": [
+        236.0,
+        240.0
+      ],
+      "tie_changed_parents": 17,
+      "tie_old_bends": 8,
+      "tie_new_bends": 1,
+      "no_path": null
+    },
+    {
+      "seq": 2504,
+      "stg": [
+        236.0,
+        238.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 3,
+      "old_stg": [
+        236.0,
+        238.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 1,
+      "tie_new_bends": 1,
+      "no_path": null
+    },
+    {
+      "seq": 2505,
+      "stg": [
+        236.0,
+        236.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 1,
+      "old_stg": [
+        236.0,
+        236.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    },
+    {
+      "seq": 2506,
+      "stg": [
+        231.0,
+        233.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 1,
+      "old_stg": [
+        231.0,
+        233.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    },
+    {
+      "seq": 2507,
+      "stg": [
+        228.0,
+        232.0
+      ],
+      "stop": true,
+      "replan": false,
+      "turn_action": 1,
+      "old_stg": [
+        228.0,
+        232.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    },
+    {
+      "seq": 2508,
+      "stg": [
+        223.0,
+        232.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 2,
+      "old_stg": [
+        223.0,
+        232.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    },
+    {
+      "seq": 2509,
+      "stg": [
+        223.0,
+        232.0
+      ],
+      "stop": false,
+      "replan": false,
+      "turn_action": 1,
+      "old_stg": [
+        223.0,
+        232.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    },
+    {
+      "seq": 2510,
+      "stg": [
+        221.0,
+        232.0
+      ],
+      "stop": true,
+      "replan": false,
+      "turn_action": 1,
+      "old_stg": [
+        221.0,
+        232.0
+      ],
+      "tie_changed_parents": 0,
+      "tie_old_bends": 0,
+      "tie_new_bends": 0,
+      "no_path": null
+    }
+  ],
+  "first_pose": {
+    "seq": 2501,
+    "xy": [
+      24.0,
+      24.0
+    ]
+  },
+  "last_pose": {
+    "seq": 2510,
+    "xy": [
+      23.625,
+      23.100479125976562
+    ]
+  }
+}

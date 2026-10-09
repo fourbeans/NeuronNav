@@ -1,0 +1,976 @@
+{
+  "plans": 144574,
+  "repaired_calls": 26451,
+  "episodes_with_repair": 105,
+  "episodes": [
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 178,
+      "repaired_calls": 489,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 243,
+      "most_used_proxy_fraction": 0.49693251533742333,
+      "adjacent_equal_fraction": 0.8483606557377049
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 127,
+      "repaired_calls": 487,
+      "unique_proxies": 14,
+      "most_used_proxy_calls": 222,
+      "most_used_proxy_fraction": 0.45585215605749485,
+      "adjacent_equal_fraction": 0.8127572016460906
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 114,
+      "repaired_calls": 477,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 128,
+      "most_used_proxy_fraction": 0.26834381551362685,
+      "adjacent_equal_fraction": 0.8214285714285714
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 92,
+      "repaired_calls": 476,
+      "unique_proxies": 14,
+      "most_used_proxy_calls": 217,
+      "most_used_proxy_fraction": 0.45588235294117646,
+      "adjacent_equal_fraction": 0.8357894736842105
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 35,
+      "repaired_calls": 471,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 241,
+      "most_used_proxy_fraction": 0.5116772823779193,
+      "adjacent_equal_fraction": 0.851063829787234
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 63,
+      "repaired_calls": 471,
+      "unique_proxies": 8,
+      "most_used_proxy_calls": 223,
+      "most_used_proxy_fraction": 0.4734607218683652,
+      "adjacent_equal_fraction": 0.8489361702127659
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 156,
+      "repaired_calls": 470,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 233,
+      "most_used_proxy_fraction": 0.4957446808510638,
+      "adjacent_equal_fraction": 0.8550106609808102
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 67,
+      "repaired_calls": 467,
+      "unique_proxies": 13,
+      "most_used_proxy_calls": 223,
+      "most_used_proxy_fraction": 0.47751605995717344,
+      "adjacent_equal_fraction": 0.8412017167381974
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 108,
+      "repaired_calls": 466,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 226,
+      "most_used_proxy_fraction": 0.48497854077253216,
+      "adjacent_equal_fraction": 0.8559139784946237
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 128,
+      "repaired_calls": 462,
+      "unique_proxies": 6,
+      "most_used_proxy_calls": 223,
+      "most_used_proxy_fraction": 0.48268398268398266,
+      "adjacent_equal_fraction": 0.8459869848156182
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 37,
+      "repaired_calls": 453,
+      "unique_proxies": 8,
+      "most_used_proxy_calls": 216,
+      "most_used_proxy_fraction": 0.4768211920529801,
+      "adjacent_equal_fraction": 0.8473451327433629
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 163,
+      "repaired_calls": 445,
+      "unique_proxies": 10,
+      "most_used_proxy_calls": 207,
+      "most_used_proxy_fraction": 0.4651685393258427,
+      "adjacent_equal_fraction": 0.8288288288288288
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 59,
+      "repaired_calls": 443,
+      "unique_proxies": 6,
+      "most_used_proxy_calls": 210,
+      "most_used_proxy_fraction": 0.47404063205417607,
+      "adjacent_equal_fraction": 0.8552036199095022
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 43,
+      "repaired_calls": 437,
+      "unique_proxies": 7,
+      "most_used_proxy_calls": 206,
+      "most_used_proxy_fraction": 0.47139588100686497,
+      "adjacent_equal_fraction": 0.805045871559633
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 75,
+      "repaired_calls": 427,
+      "unique_proxies": 7,
+      "most_used_proxy_calls": 187,
+      "most_used_proxy_fraction": 0.4379391100702576,
+      "adjacent_equal_fraction": 0.8356807511737089
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 16,
+      "repaired_calls": 422,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 179,
+      "most_used_proxy_fraction": 0.42417061611374407,
+      "adjacent_equal_fraction": 0.8147268408551069
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 179,
+      "repaired_calls": 422,
+      "unique_proxies": 9,
+      "most_used_proxy_calls": 190,
+      "most_used_proxy_fraction": 0.45023696682464454,
+      "adjacent_equal_fraction": 0.833729216152019
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 85,
+      "repaired_calls": 416,
+      "unique_proxies": 20,
+      "most_used_proxy_calls": 169,
+      "most_used_proxy_fraction": 0.40625,
+      "adjacent_equal_fraction": 0.8361445783132531
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 78,
+      "repaired_calls": 415,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 208,
+      "most_used_proxy_fraction": 0.5012048192771085,
+      "adjacent_equal_fraction": 0.857487922705314
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 44,
+      "repaired_calls": 414,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 203,
+      "most_used_proxy_fraction": 0.49033816425120774,
+      "adjacent_equal_fraction": 0.8450363196125908
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 36,
+      "repaired_calls": 413,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 147,
+      "most_used_proxy_fraction": 0.3559322033898305,
+      "adjacent_equal_fraction": 0.8446601941747572
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 123,
+      "repaired_calls": 409,
+      "unique_proxies": 10,
+      "most_used_proxy_calls": 191,
+      "most_used_proxy_fraction": 0.4669926650366748,
+      "adjacent_equal_fraction": 0.8455882352941176
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 23,
+      "repaired_calls": 401,
+      "unique_proxies": 8,
+      "most_used_proxy_calls": 188,
+      "most_used_proxy_fraction": 0.4688279301745636,
+      "adjacent_equal_fraction": 0.85
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 194,
+      "repaired_calls": 399,
+      "unique_proxies": 7,
+      "most_used_proxy_calls": 179,
+      "most_used_proxy_fraction": 0.44862155388471175,
+      "adjacent_equal_fraction": 0.8467336683417085
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 123,
+      "repaired_calls": 398,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 190,
+      "most_used_proxy_fraction": 0.47738693467336685,
+      "adjacent_equal_fraction": 0.853904282115869
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 104,
+      "repaired_calls": 398,
+      "unique_proxies": 6,
+      "most_used_proxy_calls": 194,
+      "most_used_proxy_fraction": 0.48743718592964824,
+      "adjacent_equal_fraction": 0.8463476070528967
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 10,
+      "repaired_calls": 396,
+      "unique_proxies": 6,
+      "most_used_proxy_calls": 192,
+      "most_used_proxy_fraction": 0.48484848484848486,
+      "adjacent_equal_fraction": 0.8278481012658228
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 60,
+      "repaired_calls": 396,
+      "unique_proxies": 8,
+      "most_used_proxy_calls": 196,
+      "most_used_proxy_fraction": 0.494949494949495,
+      "adjacent_equal_fraction": 0.8278481012658228
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 116,
+      "repaired_calls": 390,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 191,
+      "most_used_proxy_fraction": 0.4897435897435897,
+      "adjacent_equal_fraction": 0.8586118251928021
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 172,
+      "repaired_calls": 389,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 196,
+      "most_used_proxy_fraction": 0.5038560411311054,
+      "adjacent_equal_fraction": 0.8582474226804123
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 152,
+      "repaired_calls": 382,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 188,
+      "most_used_proxy_fraction": 0.49214659685863876,
+      "adjacent_equal_fraction": 0.8451443569553806
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 82,
+      "repaired_calls": 380,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 187,
+      "most_used_proxy_fraction": 0.4921052631578947,
+      "adjacent_equal_fraction": 0.8548812664907651
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 137,
+      "repaired_calls": 374,
+      "unique_proxies": 13,
+      "most_used_proxy_calls": 103,
+      "most_used_proxy_fraction": 0.27540106951871657,
+      "adjacent_equal_fraction": 0.8203753351206434
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 38,
+      "repaired_calls": 373,
+      "unique_proxies": 10,
+      "most_used_proxy_calls": 167,
+      "most_used_proxy_fraction": 0.4477211796246649,
+      "adjacent_equal_fraction": 0.8333333333333334
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 73,
+      "repaired_calls": 372,
+      "unique_proxies": 10,
+      "most_used_proxy_calls": 164,
+      "most_used_proxy_fraction": 0.44086021505376344,
+      "adjacent_equal_fraction": 0.8140161725067385
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 61,
+      "repaired_calls": 371,
+      "unique_proxies": 9,
+      "most_used_proxy_calls": 163,
+      "most_used_proxy_fraction": 0.4393530997304582,
+      "adjacent_equal_fraction": 0.8540540540540541
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 163,
+      "repaired_calls": 370,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 191,
+      "most_used_proxy_fraction": 0.5162162162162162,
+      "adjacent_equal_fraction": 0.8319783197831978
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 63,
+      "repaired_calls": 362,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 171,
+      "most_used_proxy_fraction": 0.4723756906077348,
+      "adjacent_equal_fraction": 0.8310249307479224
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 156,
+      "repaired_calls": 361,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 178,
+      "most_used_proxy_fraction": 0.4930747922437673,
+      "adjacent_equal_fraction": 0.8555555555555555
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 98,
+      "repaired_calls": 361,
+      "unique_proxies": 7,
+      "most_used_proxy_calls": 172,
+      "most_used_proxy_fraction": 0.47645429362880887,
+      "adjacent_equal_fraction": 0.85
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 195,
+      "repaired_calls": 360,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 176,
+      "most_used_proxy_fraction": 0.4888888888888889,
+      "adjacent_equal_fraction": 0.8161559888579387
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 132,
+      "repaired_calls": 358,
+      "unique_proxies": 9,
+      "most_used_proxy_calls": 169,
+      "most_used_proxy_fraction": 0.4720670391061452,
+      "adjacent_equal_fraction": 0.8431372549019608
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 188,
+      "repaired_calls": 358,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 154,
+      "most_used_proxy_fraction": 0.4301675977653631,
+      "adjacent_equal_fraction": 0.8319327731092437
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 19,
+      "repaired_calls": 357,
+      "unique_proxies": 13,
+      "most_used_proxy_calls": 155,
+      "most_used_proxy_fraction": 0.4341736694677871,
+      "adjacent_equal_fraction": 0.8061797752808989
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 30,
+      "repaired_calls": 354,
+      "unique_proxies": 10,
+      "most_used_proxy_calls": 157,
+      "most_used_proxy_fraction": 0.4435028248587571,
+      "adjacent_equal_fraction": 0.830028328611898
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 48,
+      "repaired_calls": 354,
+      "unique_proxies": 8,
+      "most_used_proxy_calls": 149,
+      "most_used_proxy_fraction": 0.4209039548022599,
+      "adjacent_equal_fraction": 0.8640226628895185
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 15,
+      "repaired_calls": 353,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 162,
+      "most_used_proxy_fraction": 0.45892351274787535,
+      "adjacent_equal_fraction": 0.8522727272727273
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 57,
+      "repaired_calls": 349,
+      "unique_proxies": 16,
+      "most_used_proxy_calls": 96,
+      "most_used_proxy_fraction": 0.27507163323782235,
+      "adjacent_equal_fraction": 0.8160919540229885
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 112,
+      "repaired_calls": 347,
+      "unique_proxies": 6,
+      "most_used_proxy_calls": 174,
+      "most_used_proxy_fraction": 0.5014409221902018,
+      "adjacent_equal_fraction": 0.8410404624277457
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 159,
+      "repaired_calls": 345,
+      "unique_proxies": 9,
+      "most_used_proxy_calls": 148,
+      "most_used_proxy_fraction": 0.4289855072463768,
+      "adjacent_equal_fraction": 0.8313953488372093
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 200,
+      "repaired_calls": 344,
+      "unique_proxies": 7,
+      "most_used_proxy_calls": 165,
+      "most_used_proxy_fraction": 0.4796511627906977,
+      "adjacent_equal_fraction": 0.8425655976676385
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 106,
+      "repaired_calls": 342,
+      "unique_proxies": 13,
+      "most_used_proxy_calls": 129,
+      "most_used_proxy_fraction": 0.37719298245614036,
+      "adjacent_equal_fraction": 0.7448680351906158
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 39,
+      "repaired_calls": 342,
+      "unique_proxies": 10,
+      "most_used_proxy_calls": 154,
+      "most_used_proxy_fraction": 0.4502923976608187,
+      "adjacent_equal_fraction": 0.844574780058651
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 26,
+      "repaired_calls": 339,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 168,
+      "most_used_proxy_fraction": 0.49557522123893805,
+      "adjacent_equal_fraction": 0.7958579881656804
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 71,
+      "repaired_calls": 339,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 155,
+      "most_used_proxy_fraction": 0.45722713864306785,
+      "adjacent_equal_fraction": 0.8224852071005917
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 128,
+      "repaired_calls": 337,
+      "unique_proxies": 14,
+      "most_used_proxy_calls": 114,
+      "most_used_proxy_fraction": 0.33827893175074186,
+      "adjacent_equal_fraction": 0.7857142857142857
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 86,
+      "repaired_calls": 336,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 152,
+      "most_used_proxy_fraction": 0.4523809523809524,
+      "adjacent_equal_fraction": 0.8298507462686567
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 164,
+      "repaired_calls": 335,
+      "unique_proxies": 12,
+      "most_used_proxy_calls": 157,
+      "most_used_proxy_fraction": 0.46865671641791046,
+      "adjacent_equal_fraction": 0.8353293413173652
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 191,
+      "repaired_calls": 325,
+      "unique_proxies": 18,
+      "most_used_proxy_calls": 84,
+      "most_used_proxy_fraction": 0.25846153846153846,
+      "adjacent_equal_fraction": 0.8209876543209876
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 151,
+      "repaired_calls": 318,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 132,
+      "most_used_proxy_fraction": 0.41509433962264153,
+      "adjacent_equal_fraction": 0.8296529968454258
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 93,
+      "repaired_calls": 310,
+      "unique_proxies": 7,
+      "most_used_proxy_calls": 137,
+      "most_used_proxy_fraction": 0.44193548387096776,
+      "adjacent_equal_fraction": 0.8252427184466019
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 6,
+      "repaired_calls": 292,
+      "unique_proxies": 9,
+      "most_used_proxy_calls": 120,
+      "most_used_proxy_fraction": 0.410958904109589,
+      "adjacent_equal_fraction": 0.8591065292096219
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 18,
+      "repaired_calls": 289,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 143,
+      "most_used_proxy_fraction": 0.49480968858131485,
+      "adjacent_equal_fraction": 0.8576388888888888
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 23,
+      "repaired_calls": 280,
+      "unique_proxies": 6,
+      "most_used_proxy_calls": 133,
+      "most_used_proxy_fraction": 0.475,
+      "adjacent_equal_fraction": 0.8279569892473119
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 111,
+      "repaired_calls": 226,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 120,
+      "most_used_proxy_fraction": 0.5309734513274337,
+      "adjacent_equal_fraction": 0.8355555555555556
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 56,
+      "repaired_calls": 162,
+      "unique_proxies": 8,
+      "most_used_proxy_calls": 51,
+      "most_used_proxy_fraction": 0.3148148148148148,
+      "adjacent_equal_fraction": 0.8260869565217391
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 175,
+      "repaired_calls": 157,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 55,
+      "most_used_proxy_fraction": 0.3503184713375796,
+      "adjacent_equal_fraction": 0.8461538461538461
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Markleeville.glb",
+      "episode_no": 195,
+      "repaired_calls": 127,
+      "unique_proxies": 8,
+      "most_used_proxy_calls": 57,
+      "most_used_proxy_fraction": 0.44881889763779526,
+      "adjacent_equal_fraction": 0.8888888888888888
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 135,
+      "repaired_calls": 114,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 53,
+      "most_used_proxy_fraction": 0.4649122807017544,
+      "adjacent_equal_fraction": 0.9469026548672567
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 58,
+      "repaired_calls": 82,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 27,
+      "most_used_proxy_fraction": 0.32926829268292684,
+      "adjacent_equal_fraction": 0.6172839506172839
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 80,
+      "repaired_calls": 69,
+      "unique_proxies": 9,
+      "most_used_proxy_calls": 32,
+      "most_used_proxy_fraction": 0.463768115942029,
+      "adjacent_equal_fraction": 0.8529411764705882
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Corozal.glb",
+      "episode_no": 93,
+      "repaired_calls": 65,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 64,
+      "most_used_proxy_fraction": 0.9846153846153847,
+      "adjacent_equal_fraction": 0.984375
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 93,
+      "repaired_calls": 58,
+      "unique_proxies": 10,
+      "most_used_proxy_calls": 18,
+      "most_used_proxy_fraction": 0.3103448275862069,
+      "adjacent_equal_fraction": 0.7719298245614035
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 25,
+      "repaired_calls": 53,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 43,
+      "most_used_proxy_fraction": 0.8113207547169812,
+      "adjacent_equal_fraction": 0.9615384615384616
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 24,
+      "repaired_calls": 49,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 49,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 69,
+      "repaired_calls": 49,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 49,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 131,
+      "repaired_calls": 48,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 29,
+      "most_used_proxy_fraction": 0.6041666666666666,
+      "adjacent_equal_fraction": 0.9787234042553191
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 5,
+      "repaired_calls": 46,
+      "unique_proxies": 15,
+      "most_used_proxy_calls": 20,
+      "most_used_proxy_fraction": 0.43478260869565216,
+      "adjacent_equal_fraction": 0.6666666666666666
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 189,
+      "repaired_calls": 46,
+      "unique_proxies": 11,
+      "most_used_proxy_calls": 24,
+      "most_used_proxy_fraction": 0.5217391304347826,
+      "adjacent_equal_fraction": 0.7555555555555555
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 180,
+      "repaired_calls": 40,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 38,
+      "most_used_proxy_fraction": 0.95,
+      "adjacent_equal_fraction": 0.9743589743589743
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 73,
+      "repaired_calls": 38,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 37,
+      "most_used_proxy_fraction": 0.9736842105263158,
+      "adjacent_equal_fraction": 0.9459459459459459
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 111,
+      "repaired_calls": 29,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 21,
+      "most_used_proxy_fraction": 0.7241379310344828,
+      "adjacent_equal_fraction": 0.8928571428571429
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 17,
+      "repaired_calls": 24,
+      "unique_proxies": 5,
+      "most_used_proxy_calls": 16,
+      "most_used_proxy_fraction": 0.6666666666666666,
+      "adjacent_equal_fraction": 0.8260869565217391
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 194,
+      "repaired_calls": 24,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 24,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 167,
+      "repaired_calls": 16,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 13,
+      "most_used_proxy_fraction": 0.8125,
+      "adjacent_equal_fraction": 0.9333333333333333
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 147,
+      "repaired_calls": 15,
+      "unique_proxies": 4,
+      "most_used_proxy_calls": 12,
+      "most_used_proxy_fraction": 0.8,
+      "adjacent_equal_fraction": 0.7857142857142857
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 49,
+      "repaired_calls": 14,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 8,
+      "most_used_proxy_fraction": 0.5714285714285714,
+      "adjacent_equal_fraction": 0.8461538461538461
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 181,
+      "repaired_calls": 13,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 10,
+      "most_used_proxy_fraction": 0.7692307692307693,
+      "adjacent_equal_fraction": 0.9166666666666666
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 161,
+      "repaired_calls": 12,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 11,
+      "most_used_proxy_fraction": 0.9166666666666666,
+      "adjacent_equal_fraction": 0.8181818181818182
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Corozal.glb",
+      "episode_no": 20,
+      "repaired_calls": 12,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 12,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 198,
+      "repaired_calls": 12,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 10,
+      "most_used_proxy_fraction": 0.8333333333333334,
+      "adjacent_equal_fraction": 0.8181818181818182
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Corozal.glb",
+      "episode_no": 189,
+      "repaired_calls": 11,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 9,
+      "most_used_proxy_fraction": 0.8181818181818182,
+      "adjacent_equal_fraction": 0.8
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 17,
+      "repaired_calls": 7,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 7,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 134,
+      "repaired_calls": 6,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 4,
+      "most_used_proxy_fraction": 0.6666666666666666,
+      "adjacent_equal_fraction": 0.6
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 157,
+      "repaired_calls": 6,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 6,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 12,
+      "repaired_calls": 5,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 3,
+      "most_used_proxy_fraction": 0.6,
+      "adjacent_equal_fraction": 0.5
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 152,
+      "repaired_calls": 4,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 4,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 38,
+      "repaired_calls": 4,
+      "unique_proxies": 3,
+      "most_used_proxy_calls": 2,
+      "most_used_proxy_fraction": 0.5,
+      "adjacent_equal_fraction": 0.3333333333333333
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 72,
+      "repaired_calls": 4,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 3,
+      "most_used_proxy_fraction": 0.75,
+      "adjacent_equal_fraction": 0.6666666666666666
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Wiconisco.glb",
+      "episode_no": 150,
+      "repaired_calls": 4,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 4,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 29,
+      "repaired_calls": 3,
+      "unique_proxies": 2,
+      "most_used_proxy_calls": 2,
+      "most_used_proxy_fraction": 0.6666666666666666,
+      "adjacent_equal_fraction": 0.5
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 185,
+      "repaired_calls": 3,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 3,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 197,
+      "repaired_calls": 3,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 3,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Collierville.glb",
+      "episode_no": 134,
+      "repaired_calls": 2,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 2,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 1.0
+    },
+    {
+      "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+      "episode_no": 83,
+      "repaired_calls": 1,
+      "unique_proxies": 1,
+      "most_used_proxy_calls": 1,
+      "most_used_proxy_fraction": 1.0,
+      "adjacent_equal_fraction": 0.0
+    }
+  ],
+  "paired_outcomes": {
+    "repair": {
+      "episodes": 105,
+      "snn": {
+        "success": 0.22857142857142856,
+        "spl": 0.04503649050489329
+      },
+      "reference": {
+        "success": 0.42857142857142855,
+        "spl": 0.20267362717649848
+      }
+    },
+    "no_repair": {
+      "episodes": 895,
+      "snn": {
+        "success": 0.7698324022346369,
+        "spl": 0.44711697700228537
+      },
+      "reference": {
+        "success": 0.7642458100558659,
+        "spl": 0.44744691653283464
+      }
+    }
+  }
+}

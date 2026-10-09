@@ -1,0 +1,6 @@
+checkpoint=/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/experiments/mp3d_full_q4095_lr1e5_seed123_w4_from10k/checkpoints/best.ckpt
+devices=4 5 6 7
+seed=100
+parts=val_part_0..val_part_10
+planner=original_weighted_astar
+policy=PFExpSigmaD

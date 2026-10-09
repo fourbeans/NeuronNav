@@ -1,0 +1,22 @@
+{
+  "plan_calls": 31248,
+  "readout_applied_calls": 24971,
+  "readout_applied_fraction": 0.7991231438812084,
+  "geometric_stg_changed_calls": 24971,
+  "no_path_calls": 686,
+  "fallback_calls": 0,
+  "invalid_strict_calls": 0,
+  "plan_failures": 0,
+  "selected_path_index_histogram": {
+    "6": 2649,
+    "9": 5109,
+    "8": 6596,
+    "10": 5461,
+    "5": 1126,
+    "7": 4030
+  },
+  "selected_arc_cm_mean": 45.64700098966115,
+  "selected_arc_cm_max": 50.0,
+  "ray_path_cost_ratio_mean": 1.0,
+  "ray_path_cost_ratio_max": 1.0000000000000002
+}

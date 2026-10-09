@@ -1,0 +1,20 @@
+[
+  {
+    "mode": "reference",
+    "scene": "Collierville",
+    "returncode": 0,
+    "elapsed_seconds": 71.69367337226868
+  },
+  {
+    "mode": "guarded",
+    "scene": "Collierville",
+    "returncode": 0,
+    "elapsed_seconds": 71.82853531837463
+  },
+  {
+    "mode": "neuron",
+    "scene": "Collierville",
+    "returncode": 0,
+    "elapsed_seconds": 72.80874705314636
+  }
+]

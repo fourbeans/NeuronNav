@@ -129,3 +129,47 @@ data
 experiments
 pretrained_models
 visualizations
+
+# Local tooling and macOS resource forks
+.code-review-graph/
+._*
+*.pid
+
+# Model weights and training checkpoints
+**/checkpoint*/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Generated native builds and local dependency checkouts
+dependencies/habitat-sim-full/
+dependencies/habitat-sim-poni/
+**/build/
+**/dist/
+**/CMakeFiles/
+*.a
+*.o
+*.egg
+
+# Environment/archive artifacts
+*.tar
+*.tar.gz
+*.zip
+*.whl
+
+# Bulky raw experiment traces; keep summaries, configs and aggregate tables
+dairy/**/*.jsonl
+dairy/**/*.npz
+dairy/**/*.npy
+dairy/**/*.log
+dairy/**/audit/
+dairy/**/audit_*/
+dairy/**/tb_*/
+dairy/**/logs/
+dairy/**/logs_*/
+dairy/**/stdout*
+dairy/**/stderr*
+dairy/**/processes.tsv
+dairy/**/exit_codes.tsv

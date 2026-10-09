@@ -1,0 +1,2 @@
+#!/bin/sh
+/mnt/jfzn/miniconda3/envs/poni/bin/python -m dendritic_nav.runners.collect_dend --experiment /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/official_val_v04 --output /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/official_val_v04/val_dend_017 --actor-id 17 --actors 20 --steps 13000 --role val --seed 140 --episodes 25 --checkpoint /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v04/learner/checkpoints/best_dev.ckpt

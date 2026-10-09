@@ -1,0 +1,1 @@
+{"total_metrics": {"success": 0.0, "dts": 5.735596264838387, "gspl": 0.0, "spl": 0.0, "progress": 0.0, "gppl": 0.0, "ppl": 0.0, "goal_distance": 3.8570981221212257}, "total_steps": null, "total_raw_metrics": {"success": [0], "dts": [5.735596264838387], "gspl": [0.0], "spl": [0.0], "progress": [0.0], "gppl": [0.0], "ppl": [0.0], "goal_distance": [3.8570981221212257]}}

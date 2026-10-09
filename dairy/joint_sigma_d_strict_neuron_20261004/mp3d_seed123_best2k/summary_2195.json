@@ -1,0 +1,49 @@
+{
+  "episodes": 2195,
+  "metrics": {
+    "distance_to_goal": {
+      "mean": 5.336066075005255,
+      "standard_error": 0.14334668271180528,
+      "std": 6.715910647159577
+    },
+    "spl": {
+      "mean": 0.12177394833034676,
+      "standard_error": 0.00473288888763283,
+      "std": 0.22173975896031578
+    },
+    "success": {
+      "mean": 0.29931662870159453,
+      "standard_error": 0.009774826682203114,
+      "std": 0.4579587148251536
+    }
+  },
+  "part_episode_counts": {
+    "val_part_0": 200,
+    "val_part_1": 201,
+    "val_part_10": 198,
+    "val_part_2": 198,
+    "val_part_3": 197,
+    "val_part_4": 200,
+    "val_part_5": 200,
+    "val_part_6": 200,
+    "val_part_7": 201,
+    "val_part_8": 200,
+    "val_part_9": 200
+  },
+  "parts": 11,
+  "run_root": "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k",
+  "schema": "mp3d-sigma-d-strict-snn-navigation-summary-v1",
+  "source_stats": [
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_0/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_1/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_10/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_2/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_3/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_4/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_5/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_6/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_7/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_8/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/joint_sigma_d_strict_neuron_20261004/mp3d_seed123_best2k/tb_seed_100_val_part_9/stats.json"
+  ]
+}

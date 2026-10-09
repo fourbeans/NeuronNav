@@ -1,0 +1,13 @@
+{
+  "experiment": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v03",
+  "steps": 50000,
+  "batch": 16,
+  "window": 32,
+  "warmup": 10000,
+  "update_every": 64,
+  "target_sync_every": 100,
+  "seed": 123,
+  "device": "cuda:0",
+  "idle_timeout": 3600,
+  "resume": false
+}

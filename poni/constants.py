@@ -36,7 +36,7 @@ SPLIT_SCENES = {
             "Collierville",
             "Markleeville",
             "Wiconisco",
-            "Corozal ",
+            "Corozal",
         ],
     },
     "mp3d": {

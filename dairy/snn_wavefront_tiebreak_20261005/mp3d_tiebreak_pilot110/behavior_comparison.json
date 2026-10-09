@@ -1,0 +1,521 @@
+{
+  "summary": {
+    "dataset": "mp3d",
+    "episodes": 110,
+    "success_candidate_only": 8,
+    "success_old_only": 11,
+    "spl_mean_delta": -0.017409663920405258,
+    "candidate_mean_turns": 131.86363636363637,
+    "old_mean_turns": 145.61818181818182,
+    "candidate_mean_no_path_calls": 5.990909090909091,
+    "old_mean_no_path_calls": 6.1909090909090905,
+    "candidate_mean_turn_fraction": 0.449543787351342,
+    "old_mean_turn_fraction": 0.49055800732098165,
+    "candidate_mean_no_path_rate": 0.014094058622097254,
+    "old_mean_no_path_rate": 0.013518758439821,
+    "candidate_mean_forward_stalls_proxy": 3.0727272727272728,
+    "old_mean_forward_stalls_proxy": 2.409090909090909,
+    "collision_measurement": "unavailable; forward stalls are only a proxy",
+    "old_mp3d_episode_trace": "replayed"
+  },
+  "worst_spl": [
+    {
+      "key": [
+        "5",
+        5
+      ],
+      "episode_id": "X7HyMhZNoso_124",
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.7955624136160033,
+      "delta_success": -1.0,
+      "delta_spl": -0.7955624136160033,
+      "candidate_behavior": {
+        "turns": 5,
+        "plans": 10,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 59,
+        "plans": 112,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5267857142857143,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "9",
+        4
+      ],
+      "episode_id": "x8F5xyUWy9e_81",
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.7096138858186642,
+      "delta_success": -1.0,
+      "delta_spl": -0.7096138858186642,
+      "candidate_behavior": {
+        "turns": 209,
+        "plans": 500,
+        "no_path": 5,
+        "forward_stalls_proxy": 2,
+        "has_pose_trace": true,
+        "turn_fraction": 0.418,
+        "no_path_rate": 0.01
+      },
+      "old_behavior": {
+        "turns": 20,
+        "plans": 43,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.46511627906976744,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "4",
+        0
+      ],
+      "episode_id": "TbHJrupSAjP_149",
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.6187454728416313,
+      "delta_success": -1.0,
+      "delta_spl": -0.6187454728416313,
+      "candidate_behavior": {
+        "turns": 52,
+        "plans": 112,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4642857142857143,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 33,
+        "plans": 66,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "3",
+        0
+      ],
+      "episode_id": "QUCTc6BB5sX_178",
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.5857759611951713,
+      "delta_success": -1.0,
+      "delta_spl": -0.5857759611951713,
+      "candidate_behavior": {
+        "turns": 198,
+        "plans": 500,
+        "no_path": 0,
+        "forward_stalls_proxy": 1,
+        "has_pose_trace": true,
+        "turn_fraction": 0.396,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 49,
+        "plans": 108,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4537037037037037,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "9",
+        9
+      ],
+      "episode_id": "x8F5xyUWy9e_164",
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.5625855086629473,
+      "delta_success": -1.0,
+      "delta_spl": -0.5625855086629473,
+      "candidate_behavior": {
+        "turns": 23,
+        "plans": 47,
+        "no_path": 1,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.48936170212765956,
+        "no_path_rate": 0.02127659574468085
+      },
+      "old_behavior": {
+        "turns": 51,
+        "plans": 105,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4857142857142857,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "7",
+        3
+      ],
+      "episode_id": "oLBMNvg9in8_155",
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.4622955681929524,
+      "delta_success": -1.0,
+      "delta_spl": -0.4622955681929524,
+      "candidate_behavior": {
+        "turns": 241,
+        "plans": 500,
+        "no_path": 25,
+        "forward_stalls_proxy": 1,
+        "has_pose_trace": true,
+        "turn_fraction": 0.482,
+        "no_path_rate": 0.05
+      },
+      "old_behavior": {
+        "turns": 35,
+        "plans": 74,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.47297297297297297,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "10",
+        8
+      ],
+      "episode_id": "zsNo4HB9uLZ_22",
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.2109536197218696,
+      "old_spl": 0.6121789587202081,
+      "delta_success": 0.0,
+      "delta_spl": -0.4012253389983385,
+      "candidate_behavior": {
+        "turns": 103,
+        "plans": 252,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4087301587301587,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 33,
+        "plans": 85,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.38823529411764707,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "2",
+        2
+      ],
+      "episode_id": "EU6Fwq7SyZv_126",
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.37107199877232294,
+      "delta_success": -1.0,
+      "delta_spl": -0.37107199877232294,
+      "candidate_behavior": {
+        "turns": 3,
+        "plans": 20,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.15,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 4,
+        "plans": 20,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.2,
+        "no_path_rate": 0.0
+      }
+    }
+  ],
+  "best_spl": [
+    {
+      "key": [
+        "7",
+        9
+      ],
+      "episode_id": "oLBMNvg9in8_164",
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.40341830232394316,
+      "old_spl": 0.12769679567320924,
+      "delta_success": 0.0,
+      "delta_spl": 0.2757215066507339,
+      "candidate_behavior": {
+        "turns": 37,
+        "plans": 70,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5285714285714286,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 125,
+        "plans": 227,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5506607929515418,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "10",
+        3
+      ],
+      "episode_id": "zsNo4HB9uLZ_82",
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 0.36569199870359725,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 0.36569199870359725,
+      "candidate_behavior": {
+        "turns": 38,
+        "plans": 90,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4222222222222222,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 26,
+        "plans": 70,
+        "no_path": 1,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.37142857142857144,
+        "no_path_rate": 0.014285714285714285
+      }
+    },
+    {
+      "key": [
+        "2",
+        8
+      ],
+      "episode_id": "EU6Fwq7SyZv_22",
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 0.37360403002938586,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 0.37360403002938586,
+      "candidate_behavior": {
+        "turns": 182,
+        "plans": 337,
+        "no_path": 20,
+        "forward_stalls_proxy": 5,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5400593471810089,
+        "no_path_rate": 0.05934718100890208
+      },
+      "old_behavior": {
+        "turns": 201,
+        "plans": 500,
+        "no_path": 5,
+        "forward_stalls_proxy": 3,
+        "has_pose_trace": true,
+        "turn_fraction": 0.402,
+        "no_path_rate": 0.01
+      }
+    },
+    {
+      "key": [
+        "8",
+        9
+      ],
+      "episode_id": "pLe4wQe7qrG_164",
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.4624722049379145,
+      "old_spl": 0.06886074382643456,
+      "delta_success": 0.0,
+      "delta_spl": 0.39361146111147993,
+      "candidate_behavior": {
+        "turns": 40,
+        "plans": 68,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5882352941176471,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 216,
+        "plans": 397,
+        "no_path": 11,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5440806045340051,
+        "no_path_rate": 0.027707808564231738
+      }
+    },
+    {
+      "key": [
+        "6",
+        0
+      ],
+      "episode_id": "Z6MFQCViBuw_149",
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 0.5632626375232331,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 0.5632626375232331,
+      "candidate_behavior": {
+        "turns": 63,
+        "plans": 144,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4375,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 48,
+        "plans": 86,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5581395348837209,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "4",
+        4
+      ],
+      "episode_id": "TbHJrupSAjP_81",
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 0.5739610351712701,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 0.5739610351712701,
+      "candidate_behavior": {
+        "turns": 39,
+        "plans": 99,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.3939393939393939,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 60,
+        "plans": 126,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.47619047619047616,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "1",
+        4
+      ],
+      "episode_id": "8194nk5LbLH_81",
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 0.5946275398399787,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 0.5946275398399787,
+      "candidate_behavior": {
+        "turns": 46,
+        "plans": 135,
+        "no_path": 0,
+        "forward_stalls_proxy": 2,
+        "has_pose_trace": true,
+        "turn_fraction": 0.34074074074074073,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 72,
+        "plans": 146,
+        "no_path": 0,
+        "forward_stalls_proxy": 6,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4931506849315068,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "7",
+        2
+      ],
+      "episode_id": "oLBMNvg9in8_40",
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 0.6421984614882785,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 0.6421984614882785,
+      "candidate_behavior": {
+        "turns": 23,
+        "plans": 47,
+        "no_path": 0,
+        "forward_stalls_proxy": 3,
+        "has_pose_trace": true,
+        "turn_fraction": 0.48936170212765956,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 23,
+        "plans": 45,
+        "no_path": 0,
+        "forward_stalls_proxy": 3,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5111111111111111,
+        "no_path_rate": 0.0
+      }
+    }
+  ]
+}

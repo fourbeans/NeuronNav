@@ -1,0 +1,2 @@
+#!/bin/sh
+/mnt/jfzn/miniconda3/envs/poni/bin/python -m dendritic_nav.runners.collect_dend --experiment /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02 --output /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02/dev_baseline_001 --actor-id 1 --actors 2 --steps 1000 --role dev --seed 124 --episodes 2 --baseline

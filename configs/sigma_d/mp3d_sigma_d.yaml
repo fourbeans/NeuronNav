@@ -1,0 +1,51 @@
+SEED: 123
+MODEL:
+  family: sigma_d
+  num_categories: 23
+  nsf: 32
+  embedding_size: 64
+  pretrained_path: pretrained_models/mp3d_models/poni_seed_123.ckpt
+  sigma_d:
+    threshold: 0.0078125
+    output_threshold: 0.00390625
+    qmax: 4095
+    learnable_threshold: false
+    power_of_two_threshold: true
+DATASET:
+  dset_name: mp3d
+  root: data/semantic_maps/mp3d/semantic_maps
+  fmm_dists_saved_root: data/semantic_maps/mp3d/fmm_dists_123
+  enable_unexp_area: true
+  object_pf_cutoff_dist: 5.0
+  normalize_area_by_constant: true
+  max_unexp_area: 40.0
+  sequence_length: 4
+  train_samples_per_epoch: 20000
+  val_samples_per_epoch: 1000
+  require_progressive_maps: true
+  max_sampling_attempts: 32
+OPTIM:
+  lr: 0.0001
+  num_total_updates: 40000
+  batch_size: 1
+  num_workers: 4
+  grad_accum_steps: 2
+  grad_clip_norm: 5.0
+  amp: false
+  lr_sched_milestones: [20000, 32000]
+  scheduler_interval: update
+LOSS:
+  object_weight: 1.0
+  area_weight: 1.0
+  temporal_weight: 0.0
+  reconstruction_weight: 0.0
+LOGGING:
+  output_dir: dairy/sigma_d_unet_20260924/experiments/mp3d_sigma_d_full
+  log_interval: 10
+  eval_interval: 1000
+  ckpt_interval: 1000
+  auto_resume: true
+RUNTIME:
+  deterministic: false
+  cudnn_benchmark: true
+  sync_batchnorm: false

@@ -1,0 +1,15 @@
+{
+  "compared_field_count": 85,
+  "differing_protocol_fields": {},
+  "ignored_intentional_fields": {
+    "dump_location": [
+      "'/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/gibson_original_seed123_same_protocol/gibson_objectnav'",
+      "'/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/gibson_original_seed234_same_protocol/gibson_objectnav'"
+    ],
+    "pf_model_path": [
+      "'/mnt/jfzn/shensj/PONI/pretrained_models/gibson_models/poni_seed_123.ckpt'",
+      "'/mnt/jfzn/shensj/PONI/pretrained_models/gibson_models/poni_seed_234.ckpt'"
+    ]
+  },
+  "protocol_match": true
+}

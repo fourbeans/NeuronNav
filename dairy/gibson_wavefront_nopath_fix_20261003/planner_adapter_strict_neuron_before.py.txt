@@ -1,0 +1,99 @@
+"""Strict no-path semantics for the SNN wavefront without reference planners."""
+
+import math
+import time
+
+import cv2
+import numpy as np
+
+from poni.fmm_planner import FMMPlanner
+from poni.planner_adapter_neuron import (
+    NoPathNeuron,
+    PlanNeuron,
+    add_boundary,
+    mp3d_plan,
+    validate_path,
+)
+from poni.wavefront_neuron import propagate
+
+
+def gibson_plan_strict(grid, start, goal, collision, visited, obstacle_kernel, goal_kernel,
+                       delay_quantum=0.0):
+    tick = time.perf_counter()
+    traversible = 1.0 - cv2.dilate(np.asarray(grid, dtype=np.float32), obstacle_kernel)
+    traversible[collision == 1] = 0
+    traversible[visited == 1] = 1
+    r, c = map(int, start)
+    traversible[r - 1:r + 2, c - 1:c + 2] = 1
+    traversible = add_boundary(traversible)
+    goals = cv2.dilate(add_boundary(np.asarray(goal, dtype=np.float32), 0), goal_kernel) == 1
+    if not goals.any():
+        raise NoPathNeuron("empty_goal_mask")
+    free = (traversible != 0) | goals
+    padded_start = (r + 1, c + 1)
+    wave = propagate(free, np.argwhere(goals), reverse=True, delay_quantum=delay_quantum)
+    finite = wave.times[np.isfinite(wave.times)]
+    fill = float(finite.max() + 1.0) if finite.size else float(wave.times.shape[0] ** 2)
+    decoder = FMMPlanner(traversible)
+    decoder.fmm_dist = np.where(np.isfinite(wave.times), wave.times, fill)
+    sx, sy, replan, stop = decoder.get_short_term_goal(padded_start)
+
+    reachable = bool(np.isfinite(wave.times[padded_start]))
+    path = []
+    if reachable:
+        path_padded = wave.path_to(padded_start)[::-1]
+        if not validate_path(path_padded, free, goals, padded_start):
+            raise NoPathNeuron("invalid_predecessor_path")
+        path = [(x - 1, y - 1) for x, y in path_padded]
+    return PlanNeuron(
+        (float(sx - 1), float(sy - 1)),
+        bool(stop),
+        bool(replan),
+        path,
+        {
+            "spikes": wave.spikes,
+            "events_emitted": wave.emitted,
+            "arrival_cost": float(wave.times[padded_start]) if reachable else None,
+            "elapsed_ms": (time.perf_counter() - tick) * 1000,
+            "distance_model": "eight_neighbor_not_FMM_eikonal",
+            "no_path": not reachable,
+            "no_path_policy": "constant_unreachable_ring_decoder" if not reachable else "none",
+        },
+    )
+
+
+def mp3d_plan_strict(grid, start, goal, collision, visited, obstacle_kernel, goal_kernel,
+                     map_resolution=5, wscale=4.0, niters=1, downsampling=1,
+                     delay_quantum=0.0):
+    try:
+        return mp3d_plan(
+            grid, start, goal, collision, visited, obstacle_kernel, goal_kernel,
+            map_resolution=map_resolution, wscale=wscale, niters=niters,
+            downsampling=downsampling, delay_quantum=delay_quantum,
+        )
+    except NoPathNeuron as exc:
+        reason = str(exc)
+        if reason not in ("disconnected_goal", "empty_or_blocked_goal_mask"):
+            raise
+        if downsampling != 1:
+            raise
+        step_size = 5
+        random_theta = np.random.uniform(-np.pi, np.pi, (1,))[0].item()
+        stg_x = int(step_size * np.cos(random_theta)) - 1
+        stg_y = int(step_size * np.sin(random_theta)) - 1
+        return PlanNeuron(
+            (float(stg_x), float(stg_y)),
+            False,
+            True,
+            [],
+            {
+                "spikes": 0,
+                "events_emitted": 0,
+                "arrival_cost": None,
+                "elapsed_ms": 0.0,
+                "distance_model": "astar_destination_proximity_weight",
+                "no_path": True,
+                "no_path_reason": reason,
+                "no_path_policy": "upstream_random_replan_without_astar",
+            },
+        )

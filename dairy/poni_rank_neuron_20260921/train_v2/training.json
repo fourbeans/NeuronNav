@@ -1,0 +1,1226 @@
+{
+  "args": {
+    "train_glob": "dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_*.npz",
+    "val_glob": "dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_*.npz",
+    "output": "dairy/poni_rank_neuron_20260921/train_v2",
+    "epochs": 30,
+    "seed": 7,
+    "steps": 8,
+    "hidden": 64,
+    "lr": 0.002,
+    "device": "cpu"
+  },
+  "train_scenes": [
+    "Corozal"
+  ],
+  "validation_scenes": [
+    "Darden"
+  ],
+  "supported_categories": [
+    4
+  ],
+  "train_samples": 48,
+  "validation_samples": 17,
+  "excluded_target_visible": {
+    "train": 0,
+    "validation": 1
+  },
+  "train_paths": [
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000001_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000011_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000021_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000031_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000041_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000051_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000061_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000071_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000081_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000091_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000101_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000111_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000121_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000131_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000141_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000151_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000161_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000171_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000181_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000191_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000201_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000211_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000221_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000231_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000241_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000251_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000261_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000271_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000281_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000291_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000301_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000311_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000321_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000331_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000341_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000351_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000361_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000371_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000381_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000391_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000401_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000411_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000421_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000431_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000441_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000451_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000461_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Corozal/rank_audit/sample_000471_0.npz"
+  ],
+  "validation_paths": [
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000001_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000011_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000021_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000031_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000041_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000051_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000061_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000071_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000081_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000091_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000101_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000111_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000121_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000131_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000141_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000151_0.npz",
+    "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000161_0.npz"
+  ],
+  "before": {
+    "samples": 17,
+    "exact_goal_agreement": 0.0,
+    "mean_pf_regret": 0.4860054374201836,
+    "mean_candidate_oracle_regret": 0.012966767830007216,
+    "candidate_top1_agreement": 0.0,
+    "rows": [
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000001_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          215,
+          290
+        ],
+        "teacher_decoded_cell": [
+          191,
+          322
+        ],
+        "teacher_peak_cell": [
+          191,
+          323
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.4649629588529933,
+        "candidate_oracle_regret": 0.011418968439102173,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 2.0,
+        "info": {
+          "coarse_count": 1145,
+          "candidate_count": 2832,
+          "score_margin": 8.673965930938721e-05
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000011_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          220,
+          326
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.6132460306107532,
+        "candidate_oracle_regret": 0.004030466079711914,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 3.0438462510448847,
+        "info": {
+          "coarse_count": 1138,
+          "candidate_count": 3315,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000021_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          217,
+          304
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.4760671230869775,
+        "candidate_oracle_regret": 0.009355545043945312,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 2.8217902119044926,
+        "info": {
+          "coarse_count": 1138,
+          "candidate_count": 3430,
+          "score_margin": 0.0009052753448486328
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000031_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          155,
+          201
+        ],
+        "teacher_decoded_cell": [
+          113,
+          243
+        ],
+        "teacher_peak_cell": [
+          114,
+          243
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.45691389217972755,
+        "candidate_oracle_regret": 0.02871018648147583,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 2.9698484809834995,
+        "info": {
+          "coarse_count": 1136,
+          "candidate_count": 4365,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000041_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          114,
+          159
+        ],
+        "teacher_decoded_cell": [
+          91,
+          204
+        ],
+        "teacher_peak_cell": [
+          92,
+          204
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.5172443997580558,
+        "candidate_oracle_regret": 0.008483052253723145,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 2.5268557536986553,
+        "info": {
+          "coarse_count": 1123,
+          "candidate_count": 3656,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000051_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          254,
+          292
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": true,
+        "regret": 0.4801161518553272,
+        "candidate_oracle_regret": 0.0,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 4.746050990033714,
+        "info": {
+          "coarse_count": 1115,
+          "candidate_count": 4713,
+          "score_margin": 0.0038956403732299805
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000061_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          118,
+          221
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.4745262498036027,
+        "candidate_oracle_regret": 0.01623857021331787,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 4.987233702163956,
+        "info": {
+          "coarse_count": 1113,
+          "candidate_count": 4633,
+          "score_margin": 0.00426049530506134
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000071_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          133,
+          158
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": true,
+        "regret": 0.47945894591975957,
+        "candidate_oracle_regret": 0.0,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 7.777049569084668,
+        "info": {
+          "coarse_count": 1105,
+          "candidate_count": 4514,
+          "score_margin": 0.009783416986465454
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000081_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          131,
+          110
+        ],
+        "teacher_decoded_cell": [
+          48,
+          100
+        ],
+        "teacher_peak_cell": [
+          49,
+          101
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.48573401664407356,
+        "candidate_oracle_regret": 0.0215282142162323,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 4.180011961705373,
+        "info": {
+          "coarse_count": 1103,
+          "candidate_count": 4077,
+          "score_margin": 0.004279077053070068
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000091_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          187,
+          257
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.4723307266831398,
+        "candidate_oracle_regret": 0.01623857021331787,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 2.99666481275434,
+        "info": {
+          "coarse_count": 1098,
+          "candidate_count": 3415,
+          "score_margin": 0.009275853633880615
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000101_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          139,
+          83
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.4795682294497965,
+        "candidate_oracle_regret": 0.0163152813911438,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.452947218947621,
+        "info": {
+          "coarse_count": 1098,
+          "candidate_count": 3352,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000111_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          114,
+          128
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.47916830475151073,
+        "candidate_oracle_regret": 0.015194296836853027,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 9.4469571820772,
+        "info": {
+          "coarse_count": 1095,
+          "candidate_count": 4456,
+          "score_margin": 0.011807739734649658
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000121_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          123,
+          105
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.47880014737620513,
+        "candidate_oracle_regret": 0.015132784843444824,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 10.47377677822093,
+        "info": {
+          "coarse_count": 1090,
+          "candidate_count": 4161,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000131_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          117,
+          65
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.47641885350458324,
+        "candidate_oracle_regret": 0.016043663024902344,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 12.495199078045935,
+        "info": {
+          "coarse_count": 1089,
+          "candidate_count": 4724,
+          "score_margin": 0.0056090205907821655
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000141_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          127,
+          55
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.47574535361491144,
+        "candidate_oracle_regret": 0.016155362129211426,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 12.912397143830422,
+        "info": {
+          "coarse_count": 1081,
+          "candidate_count": 4287,
+          "score_margin": 0.0047123730182647705
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000151_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          143,
+          75
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.4758984797663288,
+        "candidate_oracle_regret": 0.01598721742630005,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.834272263219232,
+        "info": {
+          "coarse_count": 1077,
+          "candidate_count": 4288,
+          "score_margin": 0.0027295053005218506
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000161_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          141,
+          74
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.4758925722853746,
+        "candidate_oracle_regret": 0.009602874517440796,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.892119239227295,
+        "info": {
+          "coarse_count": 1076,
+          "candidate_count": 4194,
+          "score_margin": 0.00039793550968170166
+        }
+      }
+    ]
+  },
+  "after": {
+    "samples": 17,
+    "exact_goal_agreement": 0.0,
+    "mean_pf_regret": 0.0722544228329378,
+    "mean_candidate_oracle_regret": 0.015273283509647144,
+    "candidate_top1_agreement": 0.0,
+    "rows": [
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000001_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          220,
+          266
+        ],
+        "teacher_decoded_cell": [
+          191,
+          322
+        ],
+        "teacher_peak_cell": [
+          191,
+          323
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.10619568824768066,
+        "candidate_oracle_regret": 0.01609942317008972,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 3.1531730050855122,
+        "info": {
+          "coarse_count": 1145,
+          "candidate_count": 3006,
+          "score_margin": 0.0059201717376708984
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000011_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          150,
+          278
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.0821647047996521,
+        "candidate_oracle_regret": 0.014002561569213867,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 1.7392527130926085,
+        "info": {
+          "coarse_count": 1138,
+          "candidate_count": 3405,
+          "score_margin": 0.06353497505187988
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000021_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          146,
+          271
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.07380461692810059,
+        "candidate_oracle_regret": 0.019256412982940674,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 2.1360009363293826,
+        "info": {
+          "coarse_count": 1138,
+          "candidate_count": 3720,
+          "score_margin": 0.050531864166259766
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000031_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          114,
+          197
+        ],
+        "teacher_decoded_cell": [
+          113,
+          243
+        ],
+        "teacher_peak_cell": [
+          114,
+          243
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.046218156814575195,
+        "candidate_oracle_regret": 0.02871018648147583,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 2.3005434140654684,
+        "info": {
+          "coarse_count": 1136,
+          "candidate_count": 3255,
+          "score_margin": 0.013003826141357422
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000041_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          76,
+          177
+        ],
+        "teacher_decoded_cell": [
+          91,
+          204
+        ],
+        "teacher_peak_cell": [
+          92,
+          204
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.06953606009483337,
+        "candidate_oracle_regret": 0.008483052253723145,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 1.5443445211480502,
+        "info": {
+          "coarse_count": 1123,
+          "candidate_count": 3585,
+          "score_margin": 0.01718759536743164
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000051_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          66,
+          138
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.013961583375930786,
+        "candidate_oracle_regret": 0.01356130838394165,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 9.868383859579035,
+        "info": {
+          "coarse_count": 1115,
+          "candidate_count": 3397,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000061_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          59,
+          121
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.032028377056121826,
+        "candidate_oracle_regret": 0.01623857021331787,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 10.782393055347223,
+        "info": {
+          "coarse_count": 1113,
+          "candidate_count": 4411,
+          "score_margin": 0.10460472106933594
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000071_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          63,
+          140
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.05983811616897583,
+        "candidate_oracle_regret": 0.01623857021331787,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 9.854567468945556,
+        "info": {
+          "coarse_count": 1105,
+          "candidate_count": 3873,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000081_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          49,
+          111
+        ],
+        "teacher_decoded_cell": [
+          48,
+          100
+        ],
+        "teacher_peak_cell": [
+          49,
+          101
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": true,
+        "regret": 0.023152530193328857,
+        "candidate_oracle_regret": 0.0,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 0.552268050859363,
+        "info": {
+          "coarse_count": 1103,
+          "candidate_count": 4170,
+          "score_margin": 0.03881072998046875
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000091_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          47,
+          113
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.08500835299491882,
+        "candidate_oracle_regret": 0.01623857021331787,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.423659658795863,
+        "info": {
+          "coarse_count": 1098,
+          "candidate_count": 3889,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000101_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          51,
+          123
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.06340843439102173,
+        "candidate_oracle_regret": 0.0163152813911438,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 10.890821823902913,
+        "info": {
+          "coarse_count": 1098,
+          "candidate_count": 4216,
+          "score_margin": 0.027088642120361328
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000111_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          45,
+          109
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.09743162989616394,
+        "candidate_oracle_regret": 0.015194296836853027,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.646887996370532,
+        "info": {
+          "coarse_count": 1095,
+          "candidate_count": 4357,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000121_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          46,
+          114
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.09376406669616699,
+        "candidate_oracle_regret": 0.015132784843444824,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.405481138470222,
+        "info": {
+          "coarse_count": 1090,
+          "candidate_count": 3643,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000131_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          45,
+          115
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.09437099099159241,
+        "candidate_oracle_regret": 0.016043663024902344,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.387712676389405,
+        "info": {
+          "coarse_count": 1089,
+          "candidate_count": 3842,
+          "score_margin": 0.05613851547241211
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000141_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          46,
+          116
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.08817043900489807,
+        "candidate_oracle_regret": 0.016155362129211426,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.319231422671772,
+        "info": {
+          "coarse_count": 1081,
+          "candidate_count": 4590,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000151_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          45,
+          107
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.10105103254318237,
+        "candidate_oracle_regret": 0.01598721742630005,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.733712115098104,
+        "info": {
+          "coarse_count": 1077,
+          "candidate_count": 3826,
+          "score_margin": 0.0
+        }
+      },
+      {
+        "sample": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/capture_v2/reference/Darden/rank_audit/sample_000161_0.npz",
+        "scene": "Darden",
+        "goal_category": 4,
+        "student_cell": [
+          44,
+          111
+        ],
+        "teacher_decoded_cell": [
+          161,
+          311
+        ],
+        "teacher_peak_cell": [
+          161,
+          311
+        ],
+        "goal_equal": false,
+        "teacher_peak_in_candidates": false,
+        "regret": 0.09822040796279907,
+        "candidate_oracle_regret": 0.015988558530807495,
+        "candidate_top1_equal": false,
+        "top5_contains_candidate_teacher_best": false,
+        "goal_distance_m": 11.585443452885176,
+        "info": {
+          "coarse_count": 1076,
+          "candidate_count": 4411,
+          "score_margin": 0.032820701599121094
+        }
+      }
+    ]
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "mean_ranking_loss": 6.398915966351827
+    },
+    {
+      "epoch": 2,
+      "mean_ranking_loss": 4.915578683217366
+    },
+    {
+      "epoch": 3,
+      "mean_ranking_loss": 4.365981315573056
+    },
+    {
+      "epoch": 4,
+      "mean_ranking_loss": 4.152838731805484
+    },
+    {
+      "epoch": 5,
+      "mean_ranking_loss": 3.951360821723938
+    },
+    {
+      "epoch": 6,
+      "mean_ranking_loss": 3.8770356128613153
+    },
+    {
+      "epoch": 7,
+      "mean_ranking_loss": 3.8107031931479773
+    },
+    {
+      "epoch": 8,
+      "mean_ranking_loss": 3.809268146753311
+    },
+    {
+      "epoch": 9,
+      "mean_ranking_loss": 3.7460896968841553
+    },
+    {
+      "epoch": 10,
+      "mean_ranking_loss": 3.7433221538861594
+    },
+    {
+      "epoch": 11,
+      "mean_ranking_loss": 3.698501875003179
+    },
+    {
+      "epoch": 12,
+      "mean_ranking_loss": 3.7129768083492913
+    },
+    {
+      "epoch": 13,
+      "mean_ranking_loss": 3.7032430320978165
+    },
+    {
+      "epoch": 14,
+      "mean_ranking_loss": 3.704355006416639
+    },
+    {
+      "epoch": 15,
+      "mean_ranking_loss": 3.6641594022512436
+    },
+    {
+      "epoch": 16,
+      "mean_ranking_loss": 3.6912760734558105
+    },
+    {
+      "epoch": 17,
+      "mean_ranking_loss": 3.7609461893637977
+    },
+    {
+      "epoch": 18,
+      "mean_ranking_loss": 3.6705747743447623
+    },
+    {
+      "epoch": 19,
+      "mean_ranking_loss": 3.6413898169994354
+    },
+    {
+      "epoch": 20,
+      "mean_ranking_loss": 3.6391319831212363
+    },
+    {
+      "epoch": 21,
+      "mean_ranking_loss": 3.6306760807832084
+    },
+    {
+      "epoch": 22,
+      "mean_ranking_loss": 3.61575448513031
+    },
+    {
+      "epoch": 23,
+      "mean_ranking_loss": 3.628265072902044
+    },
+    {
+      "epoch": 24,
+      "mean_ranking_loss": 3.6480790128310523
+    },
+    {
+      "epoch": 25,
+      "mean_ranking_loss": 3.623346596956253
+    },
+    {
+      "epoch": 26,
+      "mean_ranking_loss": 3.6034366140762963
+    },
+    {
+      "epoch": 27,
+      "mean_ranking_loss": 3.589349960287412
+    },
+    {
+      "epoch": 28,
+      "mean_ranking_loss": 3.614657297730446
+    },
+    {
+      "epoch": 29,
+      "mean_ranking_loss": 3.599891106287638
+    },
+    {
+      "epoch": 30,
+      "mean_ranking_loss": 3.6275207300980887
+    }
+  ],
+  "training_and_final_validation_seconds": 8.688244581222534,
+  "checkpoint": "/mnt/jfzn/shensj/PONI/dairy/poni_rank_neuron_20260921/train_v2/student.pt",
+  "warning": "Small-scene feasibility only; offline ranking is not ObjectNav noninferiority."
+}

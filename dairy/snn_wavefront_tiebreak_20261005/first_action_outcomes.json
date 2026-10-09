@@ -1,0 +1,216 @@
+{
+  "episodes": 110,
+  "first_action_changed": 17,
+  "first_action_changed_and_new_only_success": 0,
+  "first_action_changed_and_old_only_success": 3,
+  "old_forward_to_new_turn": 17,
+  "old_forward_to_new_turn_new_only_success": 0,
+  "old_forward_to_new_turn_old_only_success": 3,
+  "changed_episodes": [
+    {
+      "key": [
+        "0",
+        6
+      ],
+      "episode_id": "2azQ1b91cZZ_174",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 0.0
+    },
+    {
+      "key": [
+        "0",
+        7
+      ],
+      "episode_id": "2azQ1b91cZZ_55",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 1.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "1",
+        6
+      ],
+      "episode_id": "8194nk5LbLH_174",
+      "new_action": 2,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 0.0
+    },
+    {
+      "key": [
+        "10",
+        1
+      ],
+      "episode_id": "zsNo4HB9uLZ_121",
+      "new_action": 2,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 1.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "10",
+        7
+      ],
+      "episode_id": "zsNo4HB9uLZ_59",
+      "new_action": 2,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 0.0
+    },
+    {
+      "key": [
+        "2",
+        2
+      ],
+      "episode_id": "EU6Fwq7SyZv_126",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "2",
+        6
+      ],
+      "episode_id": "EU6Fwq7SyZv_147",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 0.0
+    },
+    {
+      "key": [
+        "5",
+        0
+      ],
+      "episode_id": "X7HyMhZNoso_149",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 0.0
+    },
+    {
+      "key": [
+        "5",
+        2
+      ],
+      "episode_id": "X7HyMhZNoso_40",
+      "new_action": 2,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 0.0
+    },
+    {
+      "key": [
+        "5",
+        5
+      ],
+      "episode_id": "X7HyMhZNoso_124",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "6",
+        9
+      ],
+      "episode_id": "Z6MFQCViBuw_164",
+      "new_action": 2,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 1.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "7",
+        8
+      ],
+      "episode_id": "oLBMNvg9in8_179",
+      "new_action": 2,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 0.0
+    },
+    {
+      "key": [
+        "7",
+        9
+      ],
+      "episode_id": "oLBMNvg9in8_164",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 1.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "8",
+        2
+      ],
+      "episode_id": "pLe4wQe7qrG_40",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "8",
+        6
+      ],
+      "episode_id": "pLe4wQe7qrG_174",
+      "new_action": 2,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 1.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "9",
+        1
+      ],
+      "episode_id": "x8F5xyUWy9e_22",
+      "new_action": 3,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 1.0,
+      "old_success": 1.0
+    },
+    {
+      "key": [
+        "9",
+        2
+      ],
+      "episode_id": "x8F5xyUWy9e_40",
+      "new_action": 2,
+      "old_action": 1,
+      "first_action_changed": true,
+      "new_success": 0.0,
+      "old_success": 0.0
+    }
+  ],
+  "caveat": "Association only: later plans also diverge, and first-action agreement does not imply equal trajectories."
+}

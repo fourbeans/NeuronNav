@@ -1,0 +1,124 @@
+{
+  "compared": 326,
+  "skipped": 4,
+  "same_stg": 186,
+  "same_goal_cell": 271,
+  "same_cost_1e-4": 273,
+  "different_stg_same_cost": 116,
+  "different_stg_different_goal": 25,
+  "astar_cost_lower_than_snn": 0,
+  "astar_cost_higher_than_snn": 53,
+  "examples": [
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 27.65685424949238,
+      "astar_cost": 33.213203435596434,
+      "cost_delta_astar_minus_snn": 5.556349186104054,
+      "same_cost_1e-4": false,
+      "snn_path_len": 27,
+      "astar_path_len": 28,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_2/mp3d_685535_101.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 21.313708498984763,
+      "astar_cost": 24.041630560342625,
+      "cost_delta_astar_minus_snn": 2.7279220613578623,
+      "same_cost_1e-4": false,
+      "snn_path_len": 19,
+      "astar_path_len": 18,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_2/mp3d_685535_81.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 142.36753236814712,
+      "astar_cost": 143.36753236814718,
+      "cost_delta_astar_minus_snn": 1.0000000000000568,
+      "same_cost_1e-4": false,
+      "snn_path_len": 121,
+      "astar_path_len": 122,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_6/mp3d_685527_261.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 341.71067811865476,
+      "astar_cost": 342.5391052434011,
+      "cost_delta_astar_minus_snn": 0.8284271247463266,
+      "same_cost_1e-4": false,
+      "snn_path_len": 322,
+      "astar_path_len": 322,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_141.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 362.40916292849005,
+      "astar_cost": 363.2375900532363,
+      "cost_delta_astar_minus_snn": 0.8284271247462698,
+      "same_cost_1e-4": false,
+      "snn_path_len": 334,
+      "astar_path_len": 334,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_101.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 424.8061325481603,
+      "astar_cost": 425.63455967290656,
+      "cost_delta_astar_minus_snn": 0.8284271247462698,
+      "same_cost_1e-4": false,
+      "snn_path_len": 379,
+      "astar_path_len": 379,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_4/mp3d_685529_421.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 129.33809511662417,
+      "astar_cost": 130.1665222413704,
+      "cost_delta_astar_minus_snn": 0.8284271247462129,
+      "same_cost_1e-4": false,
+      "snn_path_len": 85,
+      "astar_path_len": 85,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_1/mp3d_685526_141.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 150.22539674441617,
+      "astar_cost": 151.0538238691624,
+      "cost_delta_astar_minus_snn": 0.8284271247462129,
+      "same_cost_1e-4": false,
+      "snn_path_len": 133,
+      "astar_path_len": 133,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_7/mp3d_685531_101.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 117.81118318204298,
+      "astar_cost": 118.6396103067892,
+      "cost_delta_astar_minus_snn": 0.8284271247462129,
+      "same_cost_1e-4": false,
+      "snn_path_len": 101,
+      "astar_path_len": 101,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_7/mp3d_685531_161.npz"
+    },
+    {
+      "same_goal_cell": false,
+      "same_stg": false,
+      "snn_cost": 18.970562748477146,
+      "astar_cost": 19.798989873223338,
+      "cost_delta_astar_minus_snn": 0.8284271247461916,
+      "same_cost_1e-4": false,
+      "snn_path_len": 15,
+      "astar_path_len": 15,
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_2/mp3d_685535_1.npz"
+    }
+  ],
+  "caveat": "Offline sampled maps; cost equality can hide different paths and does not predict episode outcomes."
+}

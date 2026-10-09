@@ -1,0 +1,73 @@
+{
+  "created": 1791071792.2288752,
+  "initial_free_mib": {
+    "0": 44561,
+    "1": 69409,
+    "2": 70383,
+    "3": 70123,
+    "4": 20527,
+    "5": 31115,
+    "6": 18005,
+    "7": 69499
+  },
+  "jobs": [
+    {
+      "pid": 4097462,
+      "gpu": 2,
+      "command": [
+        "/mnt/jfzn/miniconda3/envs/poni/bin/python",
+        "-u",
+        "-m",
+        "dendritic_nav.runners.collect_dend",
+        "--experiment",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02",
+        "--output",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/dev_dend_000",
+        "--actor-id",
+        "0",
+        "--actors",
+        "2",
+        "--steps",
+        "25500",
+        "--role",
+        "dev",
+        "--seed",
+        "123",
+        "--episodes",
+        "50",
+        "--checkpoint",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/learner/checkpoints/pilot_final.ckpt"
+      ],
+      "log": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/logs_dev/dev_dend_000.log"
+    },
+    {
+      "pid": 4097515,
+      "gpu": 3,
+      "command": [
+        "/mnt/jfzn/miniconda3/envs/poni/bin/python",
+        "-u",
+        "-m",
+        "dendritic_nav.runners.collect_dend",
+        "--experiment",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02",
+        "--output",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/dev_dend_001",
+        "--actor-id",
+        "1",
+        "--actors",
+        "2",
+        "--steps",
+        "25500",
+        "--role",
+        "dev",
+        "--seed",
+        "124",
+        "--episodes",
+        "50",
+        "--checkpoint",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/learner/checkpoints/pilot_final.ckpt"
+      ],
+      "log": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/logs_dev/dev_dend_001.log"
+    }
+  ]
+}

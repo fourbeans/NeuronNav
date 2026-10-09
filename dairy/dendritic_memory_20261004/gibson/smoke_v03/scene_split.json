@@ -1,0 +1,33 @@
+{
+  "train": [
+    "Allensville.glb",
+    "Beechwood.glb",
+    "Benevolence.glb",
+    "Coffeen.glb",
+    "Cosmos.glb",
+    "Forkland.glb",
+    "Hanson.glb",
+    "Hiteman.glb",
+    "Lakeville.glb",
+    "Leonardo.glb",
+    "Lindenwood.glb",
+    "Marstons.glb",
+    "Merom.glb",
+    "Mifflinburg.glb",
+    "Newfields.glb",
+    "Onaga.glb",
+    "Pinesdale.glb",
+    "Pomaria.glb",
+    "Ranchester.glb",
+    "Stockman.glb",
+    "Tolstoy.glb",
+    "Wainscott.glb",
+    "Woodbine.glb"
+  ],
+  "dev": [
+    "Klickitat.glb",
+    "Shelbyville.glb"
+  ],
+  "official_source": "train",
+  "rule": "sha256(dend-v1:scene), first rounded 10%, min 2"
+}

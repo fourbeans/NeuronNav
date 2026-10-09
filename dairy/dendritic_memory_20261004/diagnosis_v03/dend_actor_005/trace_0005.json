@@ -1,0 +1,27 @@
+{
+  "executed": true,
+  "before": 1.3332319250405043,
+  "after": 1.3332319250405043,
+  "delta": [
+    -0.0,
+    0.0,
+    0.5235987029868356
+  ],
+  "action": 2,
+  "collision": false,
+  "terminal": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "scene": "../data/scene_datasets/gibson_semantic//Shelbyville.glb",
+  "episode_id": "dfa9624fed287f198996786c700be19454240d2a3fec9db83975a45b92139bcf",
+  "metrics": {
+    "success": 0,
+    "spl": 0.0,
+    "dts": 1.3332319250405043,
+    "ppl": 0.0,
+    "progress": 0.0,
+    "gspl": 0.0,
+    "gppl": 0.0,
+    "goal_distance": 5.5103866338200245
+  }
+}

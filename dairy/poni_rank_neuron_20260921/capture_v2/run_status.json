@@ -1,0 +1,14 @@
+[
+  {
+    "mode": "reference",
+    "scene": "Corozal",
+    "returncode": 0,
+    "elapsed_seconds": 242.44410586357117
+  },
+  {
+    "mode": "reference",
+    "scene": "Darden",
+    "returncode": 0,
+    "elapsed_seconds": 124.54980397224426
+  }
+]

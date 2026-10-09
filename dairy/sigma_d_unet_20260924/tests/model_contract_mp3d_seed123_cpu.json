@@ -1,0 +1,43 @@
+{
+  "checkpoint": "/mnt/jfzn/shensj/PONI/pretrained_models/mp3d_models/poni_seed_123.ckpt",
+  "checks": {
+    "changed_map_emits_events": true,
+    "checkpoint_mapping_complete": true,
+    "dense_area_matches_original": true,
+    "dense_object_matches_original": true,
+    "gradient_finite": true,
+    "gradient_nonzero": true,
+    "mixed_keep_matches": true,
+    "mixed_reset_matches": true,
+    "runtime_state_excluded": true,
+    "zero_delta_exact": true,
+    "zero_delta_no_events": true
+  },
+  "device": "cpu",
+  "grad_map_size": 32,
+  "loaded_layers": 29,
+  "map_size": 64,
+  "metrics": {
+    "changed_active": 159333,
+    "changed_events": 1109284,
+    "changed_saturated": 54478,
+    "dense_area_max_abs": 2.1010637283325195e-06,
+    "dense_object_max_abs": 2.872943878173828e-05,
+    "dense_object_mean_abs": 2.5256294833297943e-08,
+    "elapsed_seconds": 0.739483118057251,
+    "forbidden_runtime_state_keys": [],
+    "gradient_abs_sum": 506.80332940485096,
+    "gradient_tensor_count": 58,
+    "mixed_keep_max_abs": 3.6954879760742188e-06,
+    "mixed_reset_max_abs": 0.0,
+    "repeated_active": 0,
+    "repeated_events": 0,
+    "repeated_prediction_max_abs": 0.0
+  },
+  "output_threshold": 0.00392156862745098,
+  "passed": true,
+  "qmax": 15,
+  "schema": "sigma-d-validation-v1",
+  "threshold": 0.0078125,
+  "unused_source_keys": 0
+}

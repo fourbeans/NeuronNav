@@ -1,0 +1,13 @@
+{
+  "plan_calls": 32154,
+  "plan_failures": 0,
+  "invalid_strict_calls": 0,
+  "no_path_calls": 659,
+  "tie_path_calls": 31495,
+  "changed_stg_calls": 13831,
+  "mean_bend_delta": -20.27169391966979,
+  "bends_reduced_calls": 28906,
+  "bends_increased_calls": 1,
+  "max_abs_cost_delta": 1.0231815394945443e-12,
+  "mean_changed_parents": 41.372662327353545
+}

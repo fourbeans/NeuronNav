@@ -1,0 +1,160 @@
+[
+  {
+    "mode": "reference",
+    "raw_metrics": {
+      "success": [
+        1
+      ],
+      "dts": [
+        0.0
+      ],
+      "gspl": [
+        1.0
+      ],
+      "spl": [
+        1.0
+      ],
+      "progress": [
+        1.0
+      ],
+      "gppl": [
+        1.0
+      ],
+      "ppl": [
+        1.0
+      ],
+      "goal_distance": [
+        2.308161568489536
+      ]
+    },
+    "metrics": {
+      "success": 1.0,
+      "dts": 0.0,
+      "gspl": 1.0,
+      "spl": 1.0,
+      "progress": 1.0,
+      "gppl": 1.0,
+      "ppl": 1.0,
+      "goal_distance": 2.308161568489536
+    },
+    "decision_calls": 16,
+    "teacher_calls": 16,
+    "student_selected": 0,
+    "fallbacks": 0,
+    "fallback_reasons": {},
+    "paired_candidate_goals": 0,
+    "candidate_goal_equal": 0,
+    "same_action_keys": true,
+    "shared_actions": 15,
+    "action_mismatches": 0,
+    "same_episode_keys": true,
+    "episode_start_mismatches": 0
+  },
+  {
+    "mode": "guarded",
+    "raw_metrics": {
+      "success": [
+        1
+      ],
+      "dts": [
+        0.0
+      ],
+      "gspl": [
+        1.0
+      ],
+      "spl": [
+        1.0
+      ],
+      "progress": [
+        1.0
+      ],
+      "gppl": [
+        1.0
+      ],
+      "ppl": [
+        1.0
+      ],
+      "goal_distance": [
+        2.308161568489536
+      ]
+    },
+    "metrics": {
+      "success": 1.0,
+      "dts": 0.0,
+      "gspl": 1.0,
+      "spl": 1.0,
+      "progress": 1.0,
+      "gppl": 1.0,
+      "ppl": 1.0,
+      "goal_distance": 2.308161568489536
+    },
+    "decision_calls": 16,
+    "teacher_calls": 16,
+    "student_selected": 0,
+    "fallbacks": 16,
+    "fallback_reasons": {
+      "goal_cell_disagreement": 15,
+      "candidate_failure": 1
+    },
+    "paired_candidate_goals": 15,
+    "candidate_goal_equal": 0,
+    "same_action_keys": true,
+    "shared_actions": 15,
+    "action_mismatches": 0,
+    "same_episode_keys": true,
+    "episode_start_mismatches": 0
+  },
+  {
+    "mode": "neuron",
+    "raw_metrics": {
+      "success": [
+        1
+      ],
+      "dts": [
+        0.0
+      ],
+      "gspl": [
+        0.9153710540505606
+      ],
+      "spl": [
+        0.9153710540505606
+      ],
+      "progress": [
+        1.0
+      ],
+      "gppl": [
+        0.9153710540505606
+      ],
+      "ppl": [
+        0.9153710540505606
+      ],
+      "goal_distance": [
+        2.308161568489536
+      ]
+    },
+    "metrics": {
+      "success": 1.0,
+      "dts": 0.0,
+      "gspl": 0.9153710540505606,
+      "spl": 0.9153710540505606,
+      "progress": 1.0,
+      "gppl": 0.9153710540505606,
+      "ppl": 0.9153710540505606,
+      "goal_distance": 2.308161568489536
+    },
+    "decision_calls": 22,
+    "teacher_calls": 1,
+    "student_selected": 21,
+    "fallbacks": 1,
+    "fallback_reasons": {
+      "student_failure": 1
+    },
+    "paired_candidate_goals": 0,
+    "candidate_goal_equal": 0,
+    "same_action_keys": false,
+    "shared_actions": 15,
+    "action_mismatches": 5,
+    "same_episode_keys": true,
+    "episode_start_mismatches": 0
+  }
+]

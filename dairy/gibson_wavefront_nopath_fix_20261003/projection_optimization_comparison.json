@@ -1,0 +1,26 @@
+{
+  "early_stop_elapsed_ms": {
+    "mean": 69.33531854933096,
+    "p50": 67.98658333718777,
+    "p95": 72.51637745648623
+  },
+  "early_stop_projection_spikes": {
+    "mean": 2666.232445520581,
+    "p50": 2586.0,
+    "p95": 3179.1999999999975
+  },
+  "full_field_elapsed_ms": {
+    "mean": 126.08842373110768,
+    "p50": 123.99228755384684,
+    "p95": 137.65043076127765
+  },
+  "full_field_projection_spikes": {
+    "mean": 232324.0,
+    "p50": 232324.0,
+    "p95": 232324.0
+  },
+  "navigation_metrics_exact_match": true,
+  "plans_exact_action_match": 1758,
+  "repaired_plans": 413,
+  "status": "pass"
+}

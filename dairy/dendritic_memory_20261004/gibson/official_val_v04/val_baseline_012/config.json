@@ -1,0 +1,13 @@
+{
+  "experiment": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/official_val_v04",
+  "output": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/official_val_v04/val_baseline_012",
+  "role": "val",
+  "actor_id": 12,
+  "actors": 20,
+  "steps": 13000,
+  "episodes": 25,
+  "seed": 135,
+  "checkpoint": null,
+  "baseline": true,
+  "visualize_every": 10
+}

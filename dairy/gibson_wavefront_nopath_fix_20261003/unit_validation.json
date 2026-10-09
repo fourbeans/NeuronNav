@@ -1,0 +1,24 @@
+{
+  "disconnected": {
+    "no_path_repaired": true,
+    "path_length": 19,
+    "projection_distance_cells": 5.0,
+    "proxy_goal": [
+      6,
+      21
+    ],
+    "stg": [
+      16.0,
+      8.0
+    ]
+  },
+  "reachable": {
+    "path_length": 15,
+    "projection_used": false,
+    "stg": [
+      14.0,
+      7.0
+    ]
+  },
+  "status": "pass"
+}

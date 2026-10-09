@@ -1,0 +1,20 @@
+{
+  "improved": {
+    "key": [
+      "7",
+      2
+    ],
+    "delta_spl": 0.6421984614882785,
+    "candidate_steps": 47,
+    "old_steps": 45
+  },
+  "worsened": {
+    "key": [
+      "9",
+      4
+    ],
+    "delta_spl": -0.7096138858186642,
+    "candidate_steps": 500,
+    "old_steps": 43
+  }
+}

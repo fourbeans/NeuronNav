@@ -1,0 +1,9 @@
+ M dependencies/habitat-sim
+ M poni/constants.py
+ M scripts/create_semantic_maps.py
+ M semexp/envs/habitat/objectgoal_env.py
+?? dairy/
+?? dependencies/habitat-sim-full/
+?? dependencies/habitat-sim-poni/
+?? semexp/debug_goals_0024339.png
+?? semexp/envs/habitat/configs/tasks/objectnav_gibson_box.yaml

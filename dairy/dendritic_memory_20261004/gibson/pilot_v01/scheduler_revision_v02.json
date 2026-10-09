@@ -1,0 +1,37 @@
+{
+  "old": {
+    "pid": 3630588,
+    "gpu": 7,
+    "command": [
+      "/mnt/jfzn/miniconda3/envs/poni/bin/python",
+      "-u",
+      "-m",
+      "dendritic_nav.runners.pipeline_dend",
+      "--experiment",
+      "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v01",
+      "--gpus",
+      "0,1,2,3,4,5,7"
+    ],
+    "log": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v01/logs_train/pipeline.log"
+  },
+  "new": {
+    "pid": 3635273,
+    "gpu": 7,
+    "command": [
+      "/mnt/jfzn/miniconda3/envs/poni/bin/python",
+      "-u",
+      "-m",
+      "dendritic_nav.runners.pipeline_dend",
+      "--experiment",
+      "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v01",
+      "--gpus",
+      "0,1,2,3,4,5,6,7",
+      "--dev-actors",
+      "20",
+      "--baseline-first"
+    ],
+    "log": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v01/logs_train/pipeline_v02.log"
+  },
+  "time": 1791050525.1681752,
+  "reason": "Overlap 100-episode spatial reference with training, 20 paired evaluation streams; no learner or actor restarted"
+}

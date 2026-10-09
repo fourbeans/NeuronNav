@@ -1,0 +1,161 @@
+{
+  "compared_snapshots": 326,
+  "skipped": 4,
+  "equal_stg": 186,
+  "equal_stg_fraction": 0.5705521472392638,
+  "equal_action": 263,
+  "equal_action_fraction": 0.8067484662576687,
+  "examples": [
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_1.npz",
+      "seq": 1,
+      "snn_stg": [
+        244,
+        241
+      ],
+      "astar_stg": [
+        244.0,
+        244.0
+      ],
+      "snn_action": 2,
+      "astar_action": 2,
+      "snn_path_len": 33
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_41.npz",
+      "seq": 41,
+      "snn_stg": [
+        169,
+        246
+      ],
+      "astar_stg": [
+        167.0,
+        246.0
+      ],
+      "snn_action": 1,
+      "astar_action": 3,
+      "snn_path_len": 122
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_81.npz",
+      "seq": 81,
+      "snn_stg": [
+        188,
+        229
+      ],
+      "astar_stg": [
+        188.0,
+        232.0
+      ],
+      "snn_action": 1,
+      "astar_action": 3,
+      "snn_path_len": 342
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_101.npz",
+      "seq": 101,
+      "snn_stg": [
+        264,
+        241
+      ],
+      "astar_stg": [
+        264.0,
+        243.0
+      ],
+      "snn_action": 1,
+      "astar_action": 3,
+      "snn_path_len": 334
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_141.npz",
+      "seq": 141,
+      "snn_stg": [
+        384,
+        264
+      ],
+      "astar_stg": [
+        384.0,
+        263.0
+      ],
+      "snn_action": 1,
+      "astar_action": 1,
+      "snn_path_len": 322
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_301.npz",
+      "seq": 301,
+      "snn_stg": [
+        166,
+        284
+      ],
+      "astar_stg": [
+        166.0,
+        285.0
+      ],
+      "snn_action": 3,
+      "astar_action": 1,
+      "snn_path_len": 374
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_321.npz",
+      "seq": 321,
+      "snn_stg": [
+        180,
+        250
+      ],
+      "astar_stg": [
+        183.0,
+        250.0
+      ],
+      "snn_action": 2,
+      "astar_action": 1,
+      "snn_path_len": 529
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_341.npz",
+      "seq": 341,
+      "snn_stg": [
+        203,
+        214
+      ],
+      "astar_stg": [
+        205.0,
+        214.0
+      ],
+      "snn_action": 3,
+      "astar_action": 3,
+      "snn_path_len": 581
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_361.npz",
+      "seq": 361,
+      "snn_stg": [
+        230,
+        229
+      ],
+      "astar_stg": [
+        230.0,
+        232.0
+      ],
+      "snn_action": 1,
+      "astar_action": 3,
+      "snn_path_len": 554
+    },
+    {
+      "snapshot": "dairy/snn_wavefront_opt_20261004/mp3d_old_trace_pilot110/audit_val_part_0/mp3d_685530_381.npz",
+      "seq": 381,
+      "snn_stg": [
+        276,
+        247
+      ],
+      "astar_stg": [
+        276.0,
+        248.0
+      ],
+      "snn_action": 2,
+      "astar_action": 2,
+      "snn_path_len": 508
+    }
+  ],
+  "caveat": "Frozen sampled maps, not whole-episode performance; weighted A* is offline only."
+}

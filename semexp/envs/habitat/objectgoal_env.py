@@ -162,8 +162,13 @@ class MultiObjectGoal_Env(habitat.RLEnv):
         pos = episode["start_position"]
         rot = quaternion.from_float_array(episode["start_rotation"])
 
-        goal_names = episode["object_categories"][: self.args.num_goals]
-        goal_idxs = episode["object_ids"][: self.args.num_goals]
+        if "object_categories" in episode:
+            goal_names = episode["object_categories"][: self.args.num_goals]
+            goal_idxs = episode["object_ids"][: self.args.num_goals]
+        else:
+            # SemExp's Gibson v1.1 release stores the single goal in singular fields.
+            goal_names = [episode["object_category"]]
+            goal_idxs = [episode["object_id"]]
         floor_idx = episode["floor_id"]
 
         # Load scene info

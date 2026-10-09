@@ -1,0 +1,10 @@
+{
+  "matched_snapshots": 50,
+  "old_median_ms": 15.091420616954565,
+  "new_median_ms": 19.07263183966279,
+  "old_p95_ms": 48.65628476254642,
+  "new_p95_ms": 66.27414794638753,
+  "median_extra_ms": 4.394591320306063,
+  "median_old_path_cells": 121.0,
+  "caveat": "Sequential CPU benchmark on a shared server; not chip latency or whole-agent latency."
+}

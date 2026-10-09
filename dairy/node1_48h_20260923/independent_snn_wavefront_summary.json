@@ -1,0 +1,582 @@
+{
+  "gibson": {
+    "delta": {
+      "dts": 0.08261578042991835,
+      "spl": -0.030692837641470683,
+      "success": -0.025000000000000022
+    },
+    "episodes": 1000,
+    "legacy_audit": {
+      "counts": {
+        "action": 169933,
+        "episode_start": 1005,
+        "error_nonnull": 29910,
+        "fallback_true": 29910,
+        "init": 5,
+        "plan": 169933,
+        "reference_nonnull": 29910,
+        "used_neuron": 140023,
+        "used_reference": 29910
+      },
+      "distance_models": {
+        "eight_neighbor_not_FMM_eikonal": 140023
+      },
+      "elapsed_ms": {
+        "max": 376.48954428732395,
+        "mean": 91.24069841566535,
+        "p50": 74.45432152599096,
+        "p95": 182.21096266061068,
+        "p99": 222.57318872958413
+      },
+      "events_emitted": {
+        "max": 1852812.0,
+        "mean": 1757174.1667154683,
+        "p50": 1768156.0,
+        "p95": 1839537.8,
+        "p99": 1847214.0
+      },
+      "files": 5,
+      "no_path_rate": 0.0,
+      "no_path_reasons": {},
+      "spikes": {
+        "max": 232324.0,
+        "mean": 221133.81973675752,
+        "p50": 222540.0,
+        "p95": 230820.0,
+        "p99": 231700.78
+      }
+    },
+    "no_path_episode_groups": {
+      "with_no_path": {
+        "episodes": 97,
+        "reference_spl": 0.1337869654990608,
+        "reference_success": 0.35051546391752575,
+        "snn_spl": 0.02827917569264341,
+        "snn_success": 0.09278350515463918
+      },
+      "without_no_path": {
+        "episodes": 903,
+        "reference_spl": 0.42514759523058443,
+        "reference_success": 0.7718715393133998,
+        "snn_spl": 0.40249135820926857,
+        "snn_success": 0.7718715393133998
+      }
+    },
+    "paired_statistics": {
+      "dts": {
+        "bootstrap_ci95": [
+          -0.10626409923740854,
+          0.27038581648777305
+        ],
+        "losses": 135,
+        "mean_delta": 0.08261578042991849,
+        "ties": 696,
+        "wins": 169
+      },
+      "spl": {
+        "bootstrap_ci95": [
+          -0.04760643939292663,
+          -0.01370059246744095
+        ],
+        "losses": 437,
+        "mean_delta": -0.030692837641470704,
+        "ties": 282,
+        "wins": 281
+      },
+      "success": {
+        "bootstrap_ci95": [
+          -0.051,
+          0.001
+        ],
+        "losses": 102,
+        "mean_delta": -0.025,
+        "ties": 821,
+        "wins": 77
+      },
+      "success_mcnemar": {
+        "pvalue": 0.07254166975912607,
+        "reference_only": 102,
+        "snn_only": 77
+      }
+    },
+    "reference": {
+      "dts": 1.3911093360931166,
+      "spl": 0.3968856141466266,
+      "success": 0.731
+    },
+    "scenes": {
+      "Collierville": {
+        "delta": {
+          "dts": -0.025370999266082772,
+          "spl": -0.04733940602166381,
+          "success": -0.04500000000000004
+        },
+        "episodes": 200,
+        "episodes_with_no_path": 42,
+        "no_path_queries": 15518,
+        "no_path_query_rate": 0.4881102164066432,
+        "plans": 31792,
+        "reference": {
+          "dts": 0.8230704139461181,
+          "spl": 0.5079277076614848,
+          "success": 0.805
+        },
+        "strict_snn": {
+          "dts": 0.7976994146800354,
+          "spl": 0.46058830163982095,
+          "success": 0.76
+        }
+      },
+      "Corozal": {
+        "delta": {
+          "dts": 0.10527348192202379,
+          "spl": -0.04088321250987936,
+          "success": -0.050000000000000044
+        },
+        "episodes": 200,
+        "episodes_with_no_path": 3,
+        "no_path_queries": 47,
+        "no_path_query_rate": 0.0012865433045001643,
+        "plans": 36532,
+        "reference": {
+          "dts": 1.3596047769738397,
+          "spl": 0.44591557065690474,
+          "success": 0.78
+        },
+        "strict_snn": {
+          "dts": 1.4648782588958635,
+          "spl": 0.4050323581470254,
+          "success": 0.73
+        }
+      },
+      "Darden": {
+        "delta": {
+          "dts": 0.05497598953508187,
+          "spl": -0.017158513331470338,
+          "success": -0.015000000000000013
+        },
+        "episodes": 200,
+        "episodes_with_no_path": 13,
+        "no_path_queries": 2680,
+        "no_path_query_rate": 0.07937448169648147,
+        "plans": 33764,
+        "reference": {
+          "dts": 1.6054662876256223,
+          "spl": 0.33284518973479166,
+          "success": 0.68
+        },
+        "strict_snn": {
+          "dts": 1.6604422771607041,
+          "spl": 0.3156866764033213,
+          "success": 0.665
+        }
+      },
+      "Markleeville": {
+        "delta": {
+          "dts": 0.20050545022262556,
+          "spl": -0.010811445510315043,
+          "success": -0.030000000000000027
+        },
+        "episodes": 200,
+        "episodes_with_no_path": 30,
+        "no_path_queries": 8970,
+        "no_path_query_rate": 0.29382861635220126,
+        "plans": 30528,
+        "reference": {
+          "dts": 1.499080881957514,
+          "spl": 0.30608786632904933,
+          "success": 0.65
+        },
+        "strict_snn": {
+          "dts": 1.6995863321801397,
+          "spl": 0.2952764208187343,
+          "success": 0.62
+        }
+      },
+      "Wiconisco": {
+        "delta": {
+          "dts": 0.0776949797359443,
+          "spl": -0.03727161083402514,
+          "success": 0.015000000000000013
+        },
+        "episodes": 200,
+        "episodes_with_no_path": 9,
+        "no_path_queries": 473,
+        "no_path_query_rate": 0.014836888331242158,
+        "plans": 31880,
+        "reference": {
+          "dts": 1.6683243199624882,
+          "spl": 0.3916517363509026,
+          "success": 0.74
+        },
+        "strict_snn": {
+          "dts": 1.7460192996984325,
+          "spl": 0.3543801255168775,
+          "success": 0.755
+        }
+      }
+    },
+    "strict_audit": {
+      "counts": {
+        "action": 164496,
+        "episode_start": 1005,
+        "error_nonnull": 0,
+        "fallback_true": 0,
+        "init": 5,
+        "no_path": 27688,
+        "plan": 164496,
+        "reference_nonnull": 0,
+        "used_neuron": 164496,
+        "used_reference": 0
+      },
+      "distance_models": {
+        "eight_neighbor_not_FMM_eikonal": 164496
+      },
+      "elapsed_ms": {
+        "max": 189.4098985940218,
+        "mean": 71.10885787468227,
+        "p50": 67.66886776313186,
+        "p95": 96.77752014249563,
+        "p99": 106.14044205285603
+      },
+      "events_emitted": {
+        "max": 1852812.0,
+        "mean": 1746138.5014346854,
+        "p50": 1757402.0,
+        "p95": 1837896.0,
+        "p99": 1846664.0
+      },
+      "files": 5,
+      "no_path_rate": 0.1683202023149499,
+      "no_path_reasons": {
+        "constant_unreachable_ring_decoder": 27688
+      },
+      "spikes": {
+        "max": 232324.0,
+        "mean": 219697.48996936096,
+        "p50": 221132.0,
+        "p95": 230633.0,
+        "p99": 231639.0
+      }
+    },
+    "strict_snn": {
+      "dts": 1.473725116523035,
+      "spl": 0.3661927765051559,
+      "success": 0.706
+    }
+  },
+  "mp3d": {
+    "delta": {
+      "distance_to_goal": 0.05452800231693011,
+      "reward": 0.11560982160847255,
+      "softspl": 0.015456477715517336,
+      "spl": 0.009784233261045994,
+      "success": 0.0009111617312073106
+    },
+    "episodes": 2195,
+    "legacy_audit": {
+      "counts": {
+        "action": 607718,
+        "error_nonnull": 12380,
+        "fallback_true": 12380,
+        "init": 11,
+        "plan": 607718,
+        "reference_nonnull": 12380,
+        "used_neuron": 595338,
+        "used_reference": 12380
+      },
+      "distance_models": {
+        "astar_destination_proximity_weight": 595338
+      },
+      "elapsed_ms": {
+        "max": 221.851060166955,
+        "mean": 23.17157154265606,
+        "p50": 16.89727371558547,
+        "p95": 50.55834488011898,
+        "p99": 61.74065096303808
+      },
+      "events_emitted": {
+        "max": 1850025.0,
+        "mean": 425685.5237327367,
+        "p50": 224508.5,
+        "p95": 1333711.4000000004,
+        "p99": 1524174.27
+      },
+      "files": 11,
+      "no_path_rate": 0.0,
+      "no_path_reasons": {},
+      "spikes": {
+        "max": 231955.0,
+        "mean": 53836.92392052918,
+        "p50": 28506.0,
+        "p95": 168339.0,
+        "p99": 192213.89
+      }
+    },
+    "paired_statistics": {
+      "distance_to_goal": {
+        "bootstrap_ci95": [
+          -0.14478157070248468,
+          0.25497281957944906
+        ],
+        "losses": 1064,
+        "mean_delta": 0.054528002316929856,
+        "ties": 36,
+        "wins": 1095
+      },
+      "reward": {
+        "bootstrap_ci95": [
+          -0.11926198584239735,
+          0.3468323550391559
+        ],
+        "losses": 1084,
+        "mean_delta": 0.11560982160847252,
+        "ties": 22,
+        "wins": 1089
+      },
+      "softspl": {
+        "bootstrap_ci95": [
+          0.008149583010256076,
+          0.022718700068591877
+        ],
+        "losses": 858,
+        "mean_delta": 0.015456477715517293,
+        "ties": 340,
+        "wins": 997
+      },
+      "spl": {
+        "bootstrap_ci95": [
+          0.0021258157454102766,
+          0.0176864175760249
+        ],
+        "losses": 403,
+        "mean_delta": 0.009784233261046006,
+        "ties": 1353,
+        "wins": 439
+      },
+      "success": {
+        "bootstrap_ci95": [
+          -0.01640091116173121,
+          0.017779043280182066
+        ],
+        "losses": 177,
+        "mean_delta": 0.0009111617312072893,
+        "ties": 1839,
+        "wins": 179
+      },
+      "success_mcnemar": {
+        "pvalue": 0.9577418888759964,
+        "reference_only": 177,
+        "snn_only": 179
+      }
+    },
+    "parts": {
+      "0": {
+        "episodes": 200,
+        "reference": {
+          "softspl": 0.26291425378267574,
+          "spl": 0.1863471702088436,
+          "success": 0.42
+        },
+        "strict_snn": {
+          "softspl": 0.2438665619313367,
+          "spl": 0.17194766518917226,
+          "success": 0.385
+        }
+      },
+      "1": {
+        "episodes": 201,
+        "reference": {
+          "softspl": 0.13975802885035568,
+          "spl": 0.04816313955525734,
+          "success": 0.11940298507462686
+        },
+        "strict_snn": {
+          "softspl": 0.15881888820104212,
+          "spl": 0.052291023116678735,
+          "success": 0.11442786069651742
+        }
+      },
+      "10": {
+        "episodes": 198,
+        "reference": {
+          "softspl": 0.2411882128329766,
+          "spl": 0.17298972280828454,
+          "success": 0.48484848484848486
+        },
+        "strict_snn": {
+          "softspl": 0.27066453586232964,
+          "spl": 0.20398883881353425,
+          "success": 0.4898989898989899
+        }
+      },
+      "2": {
+        "episodes": 198,
+        "reference": {
+          "softspl": 0.17381738842825392,
+          "spl": 0.11554275404071372,
+          "success": 0.3484848484848485
+        },
+        "strict_snn": {
+          "softspl": 0.1823605157648304,
+          "spl": 0.11196395213901546,
+          "success": 0.30808080808080807
+        }
+      },
+      "3": {
+        "episodes": 197,
+        "reference": {
+          "softspl": 0.15890791091143378,
+          "spl": 0.09391902231431581,
+          "success": 0.2131979695431472
+        },
+        "strict_snn": {
+          "softspl": 0.16666769946719956,
+          "spl": 0.10243887290468118,
+          "success": 0.22842639593908629
+        }
+      },
+      "4": {
+        "episodes": 200,
+        "reference": {
+          "softspl": 0.15875904340270172,
+          "spl": 0.08272429722037894,
+          "success": 0.29
+        },
+        "strict_snn": {
+          "softspl": 0.18801249162277128,
+          "spl": 0.11293228347558878,
+          "success": 0.305
+        }
+      },
+      "5": {
+        "episodes": 200,
+        "reference": {
+          "softspl": 0.09424503641311248,
+          "spl": 0.04853612632921038,
+          "success": 0.12
+        },
+        "strict_snn": {
+          "softspl": 0.10986426126856305,
+          "spl": 0.05181601733905592,
+          "success": 0.12
+        }
+      },
+      "6": {
+        "episodes": 200,
+        "reference": {
+          "softspl": 0.23145775892590667,
+          "spl": 0.19144736583655367,
+          "success": 0.425
+        },
+        "strict_snn": {
+          "softspl": 0.26270189626853907,
+          "spl": 0.20615249534944893,
+          "success": 0.43
+        }
+      },
+      "7": {
+        "episodes": 201,
+        "reference": {
+          "softspl": 0.1669491534372949,
+          "spl": 0.11941642853980969,
+          "success": 0.31343283582089554
+        },
+        "strict_snn": {
+          "softspl": 0.1971467449260314,
+          "spl": 0.14279298745617156,
+          "success": 0.3383084577114428
+        }
+      },
+      "8": {
+        "episodes": 200,
+        "reference": {
+          "softspl": 0.08767498536900006,
+          "spl": 0.07172442362517852,
+          "success": 0.295
+        },
+        "strict_snn": {
+          "softspl": 0.100015287205508,
+          "spl": 0.07958605499920782,
+          "success": 0.335
+        }
+      },
+      "9": {
+        "episodes": 200,
+        "reference": {
+          "softspl": 0.1887291240410908,
+          "spl": 0.1464188393273091,
+          "success": 0.335
+        },
+        "strict_snn": {
+          "softspl": 0.19416715588225197,
+          "spl": 0.1489655377507823,
+          "success": 0.32
+        }
+      }
+    },
+    "reference": {
+      "distance_to_goal": 5.2764132936655885,
+      "reward": 0.39416003252521736,
+      "softspl": 0.1730661282578548,
+      "spl": 0.11606132824994314,
+      "success": 0.30569476082004554
+    },
+    "reference_parts": 11,
+    "same_episode_ids": true,
+    "strict_audit": {
+      "counts": {
+        "action": 607718,
+        "error_nonnull": 0,
+        "fallback_true": 0,
+        "init": 11,
+        "no_path": 12380,
+        "plan": 607718,
+        "reference_nonnull": 0,
+        "used_neuron": 607718,
+        "used_reference": 0
+      },
+      "distance_models": {
+        "astar_destination_proximity_weight": 607718
+      },
+      "elapsed_ms": {
+        "max": 232.58756287395954,
+        "mean": 22.954775493940293,
+        "p50": 16.614211723208427,
+        "p95": 51.673851953819394,
+        "p99": 65.59580479748514
+      },
+      "events_emitted": {
+        "max": 1850025.0,
+        "mean": 417013.76021115057,
+        "p50": 215299.0,
+        "p95": 1330070.2500000005,
+        "p99": 1522126.6399999997
+      },
+      "files": 11,
+      "no_path_rate": 0.02037129063151001,
+      "no_path_reasons": {
+        "disconnected_goal": 12004,
+        "empty_or_blocked_goal_mask": 376
+      },
+      "spikes": {
+        "max": 231955.0,
+        "mean": 52740.19629663759,
+        "p50": 27302.0,
+        "p95": 167874.0,
+        "p99": 191959.0
+      }
+    },
+    "strict_parts": 11,
+    "strict_snn": {
+      "distance_to_goal": 5.330941295982519,
+      "reward": 0.5097698541336899,
+      "softspl": 0.18852260597337214,
+      "spl": 0.12584556151098913,
+      "success": 0.30660592255125285
+    },
+    "strict_vs_legacy_byte_identical_parts": 11
+  },
+  "root": "/mnt/jfzn/shensj/PONI/dairy/node1_48h_20260923",
+  "schema": "independent_snn_wavefront_summary_v1"
+}

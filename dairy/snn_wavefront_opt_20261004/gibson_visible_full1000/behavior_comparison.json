@@ -1,0 +1,505 @@
+{
+  "summary": {
+    "dataset": "gibson",
+    "episodes": 1000,
+    "success_candidate_only": 127,
+    "success_old_only": 93,
+    "spl_mean_delta": 0.02432074540446348,
+    "candidate_mean_turns": 68.611,
+    "old_mean_turns": 74.267,
+    "candidate_mean_no_path_calls": 20.008,
+    "old_mean_no_path_calls": 26.451,
+    "candidate_mean_turn_fraction": 0.44843490822190585,
+    "old_mean_turn_fraction": 0.451597122561888,
+    "candidate_mean_no_path_rate": 0.04198251087773955,
+    "old_mean_no_path_rate": 0.05540582346771977,
+    "candidate_mean_forward_stalls_proxy": null,
+    "old_mean_forward_stalls_proxy": null,
+    "collision_measurement": "unavailable; forward stalls are only a proxy",
+    "old_mp3d_episode_trace": null
+  },
+  "worst_spl": [
+    {
+      "key": [
+        "Corozal",
+        49
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 1.0,
+      "delta_success": -1.0,
+      "delta_spl": -1.0,
+      "candidate_behavior": {
+        "turns": 22,
+        "plans": 38,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5789473684210527,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 18,
+        "plans": 32,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5625,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Corozal",
+        148
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 1.0,
+      "delta_success": -1.0,
+      "delta_spl": -1.0,
+      "candidate_behavior": {
+        "turns": 173,
+        "plans": 500,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.346,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 26,
+        "plans": 54,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.48148148148148145,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        199
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 1.0,
+      "delta_success": -1.0,
+      "delta_spl": -1.0,
+      "candidate_behavior": {
+        "turns": 20,
+        "plans": 42,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.47619047619047616,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 11,
+        "plans": 32,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.34375,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        3
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.9511762159105768,
+      "delta_success": -1.0,
+      "delta_spl": -0.9511762159105768,
+      "candidate_behavior": {
+        "turns": 11,
+        "plans": 22,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 6,
+        "plans": 25,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.24,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        60
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.9382939432833189,
+      "delta_success": -1.0,
+      "delta_spl": -0.9382939432833189,
+      "candidate_behavior": {
+        "turns": 5,
+        "plans": 13,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.38461538461538464,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 30,
+        "plans": 81,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.37037037037037035,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Corozal",
+        61
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.899581763126195,
+      "delta_success": -1.0,
+      "delta_spl": -0.899581763126195,
+      "candidate_behavior": {
+        "turns": 22,
+        "plans": 41,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5365853658536586,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 18,
+        "plans": 42,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.42857142857142855,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        85
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.10243761343392697,
+      "old_spl": 1.0,
+      "delta_success": 0.0,
+      "delta_spl": -0.897562386566073,
+      "candidate_behavior": {
+        "turns": 148,
+        "plans": 311,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.4758842443729904,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 8,
+        "plans": 24,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.3333333333333333,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Corozal",
+        197
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.11543772711955098,
+      "old_spl": 1.0,
+      "delta_success": 0.0,
+      "delta_spl": -0.884562272880449,
+      "candidate_behavior": {
+        "turns": 64,
+        "plans": 148,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.43243243243243246,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 7,
+        "plans": 15,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.4666666666666667,
+        "no_path_rate": 0.0
+      }
+    }
+  ],
+  "best_spl": [
+    {
+      "key": [
+        "Corozal",
+        66
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 37,
+        "plans": 70,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5285714285714286,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 49,
+        "plans": 93,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5268817204301075,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Corozal",
+        81
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 28,
+        "plans": 83,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.3373493975903614,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 43,
+        "plans": 500,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.086,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        22
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 7,
+        "plans": 19,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.3684210526315789,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 2,
+        "plans": 12,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.16666666666666666,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        79
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 13,
+        "plans": 43,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.3023255813953488,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 51,
+        "plans": 500,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.102,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        104
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 6,
+        "plans": 14,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.42857142857142855,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 362,
+        "plans": 500,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.724,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        11
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 5,
+        "plans": 23,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.21739130434782608,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 249,
+        "plans": 500,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.498,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        48
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 7,
+        "plans": 42,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.16666666666666666,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 6,
+        "plans": 24,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.25,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        132
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 9,
+        "plans": 30,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.3,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 9,
+        "plans": 18,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5,
+        "no_path_rate": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+checkpoint=/mnt/jfzn/shensj/PONI/pretrained_models/mp3d_models/poni_seed_123.ckpt
+devices=0 1 2 3 4 5 6 7
+seed=100
+parts=val_part_0..val_part_10
+planner=original_weighted_astar
+policy=PFExp

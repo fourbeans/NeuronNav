@@ -1,0 +1,8 @@
+{
+  "map_examples": 4,
+  "snapshot_action_divergences": 81,
+  "snapshots_considered": 319,
+  "trajectory": true,
+  "success_flips": true,
+  "output": "dairy/snn_wavefront_refine_20261004/mp3d_cap50_no_guard_pilot110/figures"
+}

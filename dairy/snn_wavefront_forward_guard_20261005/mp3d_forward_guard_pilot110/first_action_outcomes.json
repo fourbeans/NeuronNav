@@ -1,0 +1,11 @@
+{
+  "episodes": 110,
+  "first_action_changed": 0,
+  "first_action_changed_and_new_only_success": 0,
+  "first_action_changed_and_old_only_success": 0,
+  "old_forward_to_new_turn": 0,
+  "old_forward_to_new_turn_new_only_success": 0,
+  "old_forward_to_new_turn_old_only_success": 0,
+  "changed_episodes": [],
+  "caveat": "Association only: later plans also diverge, and first-action agreement does not imply equal trajectories."
+}

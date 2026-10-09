@@ -1,0 +1,33 @@
+{
+  "delta_repaired_minus_old": {
+    "dts": -0.49703525697517414,
+    "spl": 0.016020435738006933,
+    "success": 0.09999999999999998
+  },
+  "episode_identity": "exact_goal_distance_sequence_match",
+  "episodes": 20,
+  "new_audit": {
+    "episodes_with_old_no_path": 0,
+    "episodes_with_repairs": 3,
+    "plans": 1758,
+    "projection_used": 413,
+    "repair_stop_true": 0,
+    "repaired": 413
+  },
+  "old_audit": {
+    "episodes_with_old_no_path": 3,
+    "episodes_with_repairs": 0,
+    "old_no_path": 1147,
+    "plans": 2476
+  },
+  "old_constant_fill_strict_snn": {
+    "dts": 0.7244208002188472,
+    "spl": 0.5183083024787901,
+    "success": 0.75
+  },
+  "repaired_projection_strict_snn": {
+    "dts": 0.2273855432436731,
+    "spl": 0.534328738216797,
+    "success": 0.85
+  }
+}

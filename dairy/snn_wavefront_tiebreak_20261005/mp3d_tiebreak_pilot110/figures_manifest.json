@@ -1,0 +1,8 @@
+{
+  "map_examples": 4,
+  "snapshot_action_divergences": 60,
+  "snapshots_considered": 321,
+  "trajectory": true,
+  "success_flips": true,
+  "output": "dairy/snn_wavefront_tiebreak_20261005/mp3d_tiebreak_pilot110/figures"
+}

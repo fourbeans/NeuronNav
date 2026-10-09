@@ -1,0 +1,13 @@
+{
+  "experiment": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02",
+  "output": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02/dev_baseline_000",
+  "role": "dev",
+  "actor_id": 0,
+  "actors": 2,
+  "steps": 1000,
+  "episodes": 2,
+  "seed": 123,
+  "checkpoint": null,
+  "baseline": true,
+  "visualize_every": 10
+}

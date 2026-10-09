@@ -1,0 +1,9 @@
+{
+  "created": "2026-10-05 04:07:57 +0800",
+  "python": "3.8.20 | packaged by conda-forge | (default, Sep 30 2024, 17:52:49) \n[GCC 13.3.0]",
+  "torch": "1.9.1+cu111",
+  "cuda": "11.1",
+  "kind": "dendritic_nav.runners.collect_dend",
+  "visible_devices": "2",
+  "schema": "dendritic_v3"
+}

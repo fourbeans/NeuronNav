@@ -1,0 +1,87 @@
+{
+  "dataset": "mp3d",
+  "episodes": 110,
+  "part_episode_counts": {
+    "0": 10,
+    "1": 10,
+    "10": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10,
+    "5": 10,
+    "6": 10,
+    "7": 10,
+    "8": 10,
+    "9": 10
+  },
+  "metrics": {
+    "success": 0.33636363636363636,
+    "spl": 0.13381614981139997,
+    "distance_to_goal": 4.869827544718811
+  },
+  "baselines": {
+    "sigma_d_astar": {
+      "cohort_match": true,
+      "metrics": {
+        "success": 0.34545454545454546,
+        "spl": 0.12453875606383846,
+        "distance_to_goal": 5.08514513892799
+      },
+      "difference": {
+        "success": {
+          "mean": -0.00909090909090909,
+          "paired_se": 0.039798186775714034,
+          "improved": 9,
+          "worsened": 10,
+          "equal": 91
+        },
+        "spl": {
+          "mean": 0.009277393747561521,
+          "paired_se": 0.018733677617064712,
+          "improved": 25,
+          "worsened": 21,
+          "equal": 64
+        },
+        "distance_to_goal": {
+          "mean": -0.21531759420917793,
+          "paired_se": 0.4413198968369283,
+          "improved": 52,
+          "worsened": 55,
+          "equal": 3
+        }
+      }
+    },
+    "sigma_d_snn_old": {
+      "cohort_match": true,
+      "metrics": {
+        "success": 0.37272727272727274,
+        "spl": 0.15155955934055546,
+        "distance_to_goal": 5.235944353446195
+      },
+      "difference": {
+        "success": {
+          "mean": -0.03636363636363636,
+          "paired_se": 0.03636363636363637,
+          "improved": 6,
+          "worsened": 10,
+          "equal": 94
+        },
+        "spl": {
+          "mean": -0.017743409529155527,
+          "paired_se": 0.01731289867594792,
+          "improved": 19,
+          "worsened": 26,
+          "equal": 65
+        },
+        "distance_to_goal": {
+          "mean": -0.3661168087273836,
+          "paired_se": 0.4609716013198711,
+          "improved": 49,
+          "worsened": 57,
+          "equal": 4
+        }
+      }
+    }
+  },
+  "run_root": "/mnt/jfzn/shensj/PONI/dairy/snn_wavefront_refine_20261004/mp3d_cap50_cost_angle15_pilot110"
+}

@@ -1,0 +1,27 @@
+{
+  "executed": true,
+  "before": 10.808032224884915,
+  "after": 10.808032224884915,
+  "delta": [
+    0.0,
+    -0.0,
+    0.0
+  ],
+  "action": 1,
+  "collision": true,
+  "terminal": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "scene": "../data/scene_datasets/gibson_semantic//Klickitat.glb",
+  "episode_id": "b983a5d11924371948e45d905946e7310c84e9260deaeb9100e044174d3fcf93",
+  "metrics": {
+    "success": 0,
+    "spl": 0.0,
+    "dts": 10.808032224884915,
+    "ppl": 0.0,
+    "progress": 0.0,
+    "gspl": 0.0,
+    "gppl": 0.0,
+    "goal_distance": 5.671979369433475
+  }
+}

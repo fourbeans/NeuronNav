@@ -1,0 +1,31 @@
+{
+  "episodes": 125,
+  "success": {
+    "baseline": 0.736,
+    "dendritic": 0.736,
+    "difference": 0.0,
+    "paired_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "spl": {
+    "baseline": 0.415058668351017,
+    "dendritic": 0.4149266820396344,
+    "difference": -0.00013198631138257788,
+    "paired_ci95": [
+      -0.0005279452455303115,
+      0.0
+    ]
+  },
+  "point_estimate_non_regression": false,
+  "pilot_gross_regression": false,
+  "interpretation": "Paired official validation uses distinct episode IDs only; exact actor reruns are not independent samples.",
+  "split": "gibson_official_val",
+  "checkpoint": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v04/learner/checkpoints/best_dev.ckpt",
+  "sample_audit": {
+    "recorded_pair_runs": 500,
+    "distinct_episode_ids": 125,
+    "exact_duplicate_pair_runs": 375
+  }
+}

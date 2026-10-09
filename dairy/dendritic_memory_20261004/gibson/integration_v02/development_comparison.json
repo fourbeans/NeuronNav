@@ -1,0 +1,24 @@
+{
+  "episodes": 4,
+  "success": {
+    "baseline": 0.25,
+    "dendritic": 0.25,
+    "difference": 0.0,
+    "paired_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "spl": {
+    "baseline": 0.25,
+    "dendritic": 0.25,
+    "difference": 0.0,
+    "paired_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "point_estimate_non_regression": true,
+  "pilot_gross_regression": false,
+  "interpretation": "Development diagnostic only; not a claim of final-val improvement."
+}

@@ -1,0 +1,27 @@
+{
+  "episodes": 100,
+  "success": {
+    "baseline": 0.5,
+    "dendritic": 0.5,
+    "difference": 0.0,
+    "paired_ci95": [
+      -0.03,
+      0.03
+    ]
+  },
+  "spl": {
+    "baseline": 0.2627432791453346,
+    "dendritic": 0.2628537834044866,
+    "difference": 0.00011050425915209091,
+    "paired_ci95": [
+      -0.002526619157900234,
+      0.0028581319353565065
+    ]
+  },
+  "point_estimate_non_regression": true,
+  "pilot_gross_regression": false,
+  "interpretation": "Development diagnostic only; not a claim of final-val improvement.",
+  "checkpoint": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v04/learner/checkpoints/pilot_final.ckpt",
+  "qualified_best_dev": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v04/learner/checkpoints/best_dev.ckpt",
+  "next_step": "Review pilot and visualizations before long training / MP3D integration."
+}

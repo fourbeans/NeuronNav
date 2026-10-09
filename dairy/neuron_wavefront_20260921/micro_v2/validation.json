@@ -1,0 +1,738 @@
+{
+  "jit_available": true,
+  "core": {
+    "scipy_oracle_cases": 60,
+    "tick_oracle": "passed",
+    "reset_disconnection_start_at_goal_budget_invalid_delays": "passed"
+  },
+  "weighted_astar": [
+    {
+      "case": 0,
+      "reachable": false
+    },
+    {
+      "case": 1,
+      "reachable": true,
+      "neuron_cost": 330.4213562373095,
+      "astar_cost": 330.4213562373095,
+      "path_equal": true
+    },
+    {
+      "case": 2,
+      "reachable": true,
+      "neuron_cost": 143.29646455628165,
+      "astar_cost": 143.29646455628165,
+      "path_equal": false
+    },
+    {
+      "case": 3,
+      "reachable": true,
+      "neuron_cost": 272.7645019878172,
+      "astar_cost": 272.7645019878172,
+      "path_equal": true
+    },
+    {
+      "case": 4,
+      "reachable": true,
+      "neuron_cost": 131.95331880577402,
+      "astar_cost": 131.95331880577402,
+      "path_equal": false
+    },
+    {
+      "case": 5,
+      "reachable": true,
+      "neuron_cost": 356.0904037956217,
+      "astar_cost": 356.0904037956217,
+      "path_equal": true
+    },
+    {
+      "case": 6,
+      "reachable": true,
+      "neuron_cost": 102.76955262170047,
+      "astar_cost": 102.76955262170047,
+      "path_equal": true
+    },
+    {
+      "case": 7,
+      "reachable": true,
+      "neuron_cost": 375.3624817342638,
+      "astar_cost": 375.36248173426384,
+      "path_equal": false
+    },
+    {
+      "case": 8,
+      "reachable": true,
+      "neuron_cost": 89.8700576850888,
+      "astar_cost": 89.8700576850888,
+      "path_equal": true
+    },
+    {
+      "case": 9,
+      "reachable": true,
+      "neuron_cost": 360.048773235279,
+      "astar_cost": 360.048773235279,
+      "path_equal": false
+    },
+    {
+      "case": 10,
+      "reachable": false
+    },
+    {
+      "case": 11,
+      "reachable": true,
+      "neuron_cost": 373.3036072312181,
+      "astar_cost": 373.3036072312181,
+      "path_equal": true
+    },
+    {
+      "case": 12,
+      "reachable": true,
+      "neuron_cost": 131.2964645562817,
+      "astar_cost": 131.2964645562817,
+      "path_equal": false
+    },
+    {
+      "case": 13,
+      "reachable": true,
+      "neuron_cost": 350.1076477383248,
+      "astar_cost": 350.1076477383248,
+      "path_equal": true
+    },
+    {
+      "case": 14,
+      "reachable": true,
+      "neuron_cost": 90.18376618407356,
+      "astar_cost": 90.18376618407356,
+      "path_equal": false
+    },
+    {
+      "case": 15,
+      "reachable": true,
+      "neuron_cost": 340.2152954766495,
+      "astar_cost": 340.2152954766495,
+      "path_equal": true
+    },
+    {
+      "case": 16,
+      "reachable": true,
+      "neuron_cost": 139.7228714274745,
+      "astar_cost": 139.7228714274745,
+      "path_equal": true
+    },
+    {
+      "case": 17,
+      "reachable": true,
+      "neuron_cost": 384.33304448274095,
+      "astar_cost": 384.33304448274095,
+      "path_equal": true
+    },
+    {
+      "case": 18,
+      "reachable": true,
+      "neuron_cost": 134.43860018001263,
+      "astar_cost": 134.43860018001263,
+      "path_equal": true
+    },
+    {
+      "case": 19,
+      "reachable": true,
+      "neuron_cost": 383.36248173426384,
+      "astar_cost": 383.36248173426384,
+      "path_equal": true
+    },
+    {
+      "case": 20,
+      "reachable": false
+    },
+    {
+      "case": 21,
+      "reachable": true,
+      "neuron_cost": 325.8233764908628,
+      "astar_cost": 325.8233764908628,
+      "path_equal": true
+    },
+    {
+      "case": 22,
+      "reachable": true,
+      "neuron_cost": 140.61017305526642,
+      "astar_cost": 140.61017305526642,
+      "path_equal": false
+    },
+    {
+      "case": 23,
+      "reachable": true,
+      "neuron_cost": 302.5096679918781,
+      "astar_cost": 302.5096679918781,
+      "path_equal": true
+    },
+    {
+      "case": 24,
+      "reachable": true,
+      "neuron_cost": 66.18376618407356,
+      "astar_cost": 66.18376618407356,
+      "path_equal": true
+    },
+    {
+      "case": 25,
+      "reachable": true,
+      "neuron_cost": 266.59292911256335,
+      "astar_cost": 266.59292911256335,
+      "path_equal": true
+    },
+    {
+      "case": 26,
+      "reachable": true,
+      "neuron_cost": 101.94112549695429,
+      "astar_cost": 101.94112549695429,
+      "path_equal": true
+    },
+    {
+      "case": 27,
+      "reachable": true,
+      "neuron_cost": 333.46298679765204,
+      "astar_cost": 333.4629867976521,
+      "path_equal": false
+    },
+    {
+      "case": 28,
+      "reachable": true,
+      "neuron_cost": 90.6274169979695,
+      "astar_cost": 90.6274169979695,
+      "path_equal": true
+    },
+    {
+      "case": 29,
+      "reachable": true,
+      "neuron_cost": 335.48023074035524,
+      "astar_cost": 335.48023074035524,
+      "path_equal": true
+    },
+    {
+      "case": 30,
+      "reachable": false
+    },
+    {
+      "case": 31,
+      "reachable": true,
+      "neuron_cost": 330.1076477383248,
+      "astar_cost": 330.1076477383248,
+      "path_equal": true
+    },
+    {
+      "case": 32,
+      "reachable": true,
+      "neuron_cost": 149.29646455628162,
+      "astar_cost": 149.29646455628162,
+      "path_equal": true
+    },
+    {
+      "case": 33,
+      "reachable": true,
+      "neuron_cost": 366.3919189857866,
+      "astar_cost": 366.3919189857866,
+      "path_equal": true
+    },
+    {
+      "case": 34,
+      "reachable": true,
+      "neuron_cost": 140.22539674441614,
+      "astar_cost": 140.22539674441617,
+      "path_equal": false
+    },
+    {
+      "case": 35,
+      "reachable": true,
+      "neuron_cost": 368.45079348883235,
+      "astar_cost": 368.45079348883235,
+      "path_equal": true
+    },
+    {
+      "case": 36,
+      "reachable": true,
+      "neuron_cost": 79.2842712474619,
+      "astar_cost": 79.2842712474619,
+      "path_equal": true
+    },
+    {
+      "case": 37,
+      "reachable": true,
+      "neuron_cost": 340.7766952966369,
+      "astar_cost": 340.7766952966369,
+      "path_equal": true
+    },
+    {
+      "case": 38,
+      "reachable": true,
+      "neuron_cost": 88.52691193458118,
+      "astar_cost": 88.52691193458118,
+      "path_equal": false
+    },
+    {
+      "case": 39,
+      "reachable": true,
+      "neuron_cost": 297.8233764908628,
+      "astar_cost": 297.8233764908628,
+      "path_equal": true
+    },
+    {
+      "case": 40,
+      "reachable": false
+    },
+    {
+      "case": 41,
+      "reachable": true,
+      "neuron_cost": 385.3036072312181,
+      "astar_cost": 385.3036072312181,
+      "path_equal": true
+    },
+    {
+      "case": 42,
+      "reachable": true,
+      "neuron_cost": 103.1126983722081,
+      "astar_cost": 103.1126983722081,
+      "path_equal": true
+    },
+    {
+      "case": 43,
+      "reachable": true,
+      "neuron_cost": 375.0782104868019,
+      "astar_cost": 375.0782104868019,
+      "path_equal": true
+    },
+    {
+      "case": 44,
+      "reachable": true,
+      "neuron_cost": 77.18376618407356,
+      "astar_cost": 77.18376618407356,
+      "path_equal": false
+    },
+    {
+      "case": 45,
+      "reachable": true,
+      "neuron_cost": 364.4507934888324,
+      "astar_cost": 364.4507934888324,
+      "path_equal": true
+    },
+    {
+      "case": 46,
+      "reachable": true,
+      "neuron_cost": 89.01219330881976,
+      "astar_cost": 89.01219330881976,
+      "path_equal": true
+    },
+    {
+      "case": 47,
+      "reachable": true,
+      "neuron_cost": 260.16652224137044,
+      "astar_cost": 260.16652224137044,
+      "path_equal": false
+    },
+    {
+      "case": 48,
+      "reachable": true,
+      "neuron_cost": 112.35533905932738,
+      "astar_cost": 112.35533905932738,
+      "path_equal": false
+    },
+    {
+      "case": 49,
+      "reachable": true,
+      "neuron_cost": 362.3919189857867,
+      "astar_cost": 362.3919189857867,
+      "path_equal": true
+    },
+    {
+      "case": 50,
+      "reachable": false
+    },
+    {
+      "case": 51,
+      "reachable": true,
+      "neuron_cost": 355.3624817342638,
+      "astar_cost": 355.36248173426384,
+      "path_equal": false
+    },
+    {
+      "case": 52,
+      "reachable": true,
+      "neuron_cost": 70.2842712474619,
+      "astar_cost": 70.2842712474619,
+      "path_equal": false
+    },
+    {
+      "case": 53,
+      "reachable": true,
+      "neuron_cost": 314.3380951166243,
+      "astar_cost": 314.3380951166243,
+      "path_equal": true
+    },
+    {
+      "case": 54,
+      "reachable": true,
+      "neuron_cost": 146.95331880577402,
+      "astar_cost": 146.95331880577402,
+      "path_equal": false
+    },
+    {
+      "case": 55,
+      "reachable": true,
+      "neuron_cost": 314.3919189857867,
+      "astar_cost": 314.3919189857867,
+      "path_equal": true
+    },
+    {
+      "case": 56,
+      "reachable": true,
+      "neuron_cost": 86.18376618407356,
+      "astar_cost": 86.18376618407356,
+      "path_equal": true
+    },
+    {
+      "case": 57,
+      "reachable": true,
+      "neuron_cost": 293.89444430272823,
+      "astar_cost": 293.89444430272823,
+      "path_equal": true
+    },
+    {
+      "case": 58,
+      "reachable": true,
+      "neuron_cost": 135.46803743153546,
+      "astar_cost": 135.46803743153546,
+      "path_equal": false
+    },
+    {
+      "case": 59,
+      "reachable": true,
+      "neuron_cost": 364.1665222413704,
+      "astar_cost": 364.1665222413704,
+      "path_equal": true
+    },
+    {
+      "case": 60,
+      "reachable": false
+    },
+    {
+      "case": 61,
+      "reachable": true,
+      "neuron_cost": 346.14927829866735,
+      "astar_cost": 346.14927829866735,
+      "path_equal": true
+    },
+    {
+      "case": 62,
+      "reachable": true,
+      "neuron_cost": 85.08326112068524,
+      "astar_cost": 85.08326112068524,
+      "path_equal": false
+    },
+    {
+      "case": 63,
+      "reachable": true,
+      "neuron_cost": 306.0904037956216,
+      "astar_cost": 306.0904037956217,
+      "path_equal": false
+    },
+    {
+      "case": 64,
+      "reachable": true,
+      "neuron_cost": 105.91168824543144,
+      "astar_cost": 105.91168824543144,
+      "path_equal": true
+    },
+    {
+      "case": 65,
+      "reachable": true,
+      "neuron_cost": 268.237590053236,
+      "astar_cost": 268.237590053236,
+      "path_equal": true
+    },
+    {
+      "case": 66,
+      "reachable": true,
+      "neuron_cost": 96.59797974644665,
+      "astar_cost": 96.59797974644667,
+      "path_equal": false
+    },
+    {
+      "case": 67,
+      "reachable": true,
+      "neuron_cost": 353.4213562373095,
+      "astar_cost": 353.4213562373095,
+      "path_equal": true
+    },
+    {
+      "case": 68,
+      "reachable": true,
+      "neuron_cost": 141.53910524340094,
+      "astar_cost": 141.53910524340094,
+      "path_equal": false
+    },
+    {
+      "case": 69,
+      "reachable": true,
+      "neuron_cost": 390.15642097360376,
+      "astar_cost": 390.1564209736038,
+      "path_equal": false
+    },
+    {
+      "case": 70,
+      "reachable": false
+    },
+    {
+      "case": 71,
+      "reachable": true,
+      "neuron_cost": 341.8233764908628,
+      "astar_cost": 341.8233764908628,
+      "path_equal": true
+    },
+    {
+      "case": 72,
+      "reachable": true,
+      "neuron_cost": 101.32590180780453,
+      "astar_cost": 101.32590180780453,
+      "path_equal": false
+    },
+    {
+      "case": 73,
+      "reachable": true,
+      "neuron_cost": 404.45079348883235,
+      "astar_cost": 404.4507934888324,
+      "path_equal": false
+    },
+    {
+      "case": 74,
+      "reachable": true,
+      "neuron_cost": 95.84062043356595,
+      "astar_cost": 95.84062043356595,
+      "path_equal": true
+    },
+    {
+      "case": 75,
+      "reachable": true,
+      "neuron_cost": 353.3036072312181,
+      "astar_cost": 353.3036072312181,
+      "path_equal": false
+    },
+    {
+      "case": 76,
+      "reachable": true,
+      "neuron_cost": 146.40916292848976,
+      "astar_cost": 146.40916292848976,
+      "path_equal": false
+    },
+    {
+      "case": 77,
+      "reachable": true,
+      "neuron_cost": 459.93102422918764,
+      "astar_cost": 459.93102422918764,
+      "path_equal": true
+    },
+    {
+      "case": 78,
+      "reachable": true,
+      "neuron_cost": 103.91168824543144,
+      "astar_cost": 103.91168824543144,
+      "path_equal": true
+    },
+    {
+      "case": 79,
+      "reachable": true,
+      "neuron_cost": 373.98989873223326,
+      "astar_cost": 373.98989873223326,
+      "path_equal": true
+    }
+  ],
+  "interfaces": {
+    "cases": [
+      {
+        "case": 0,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 1,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 2,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 3,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 4,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 5,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 6,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 7,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 8,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 9,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 10,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 11,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 12,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 13,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 14,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 15,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 16,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 17,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 18,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 19,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 20,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 21,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 22,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 23,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 24,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 25,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 26,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 27,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 28,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 29,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 30,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 31,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 32,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 33,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 34,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      },
+      {
+        "case": 35,
+        "gibson_action_equal": true,
+        "mp3d_3step_state_equal": true
+      }
+    ],
+    "mp3d_two_worker_ipc": "passed",
+    "gibson_factory_pickle": "passed"
+  },
+  "guard_edges": {
+    "stop_action_replan_error_fallbacks": "passed",
+    "same_action_acceptance": "passed",
+    "empty_goal_detection": "passed"
+  },
+  "status": "passed"
+}

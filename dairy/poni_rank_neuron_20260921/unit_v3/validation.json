@@ -1,0 +1,102 @@
+{
+  "core": {
+    "binary_spikes_and_surrogate": "passed",
+    "state_reset": "passed",
+    "initial_synthetic_loss": 4.636160373687744,
+    "final_synthetic_loss": 1.3938401937484741,
+    "spike_activity": {
+      "layer1_rate": 0.176025390625,
+      "layer2_rate": 0.1670735627412796
+    },
+    "teacher_free_candidates": "passed",
+    "empty_candidates_and_split_rejection": "passed"
+  },
+  "upstream_masks": {
+    "original_mask_cases": 32,
+    "coordinate_roundtrips": 2066
+  },
+  "controller": [
+    {
+      "mode": "reference",
+      "candidate": [
+        11,
+        10
+      ],
+      "injected_failure": false,
+      "passed": true
+    },
+    {
+      "mode": "shadow",
+      "candidate": [
+        11,
+        10
+      ],
+      "injected_failure": false,
+      "passed": true
+    },
+    {
+      "mode": "guarded",
+      "candidate": [
+        10,
+        10
+      ],
+      "injected_failure": false,
+      "passed": true
+    },
+    {
+      "mode": "guarded",
+      "candidate": [
+        11,
+        10
+      ],
+      "injected_failure": false,
+      "passed": true
+    },
+    {
+      "mode": "guarded",
+      "candidate": [
+        10,
+        10
+      ],
+      "injected_failure": true,
+      "passed": true
+    },
+    {
+      "mode": "neuron",
+      "candidate": [
+        11,
+        10
+      ],
+      "injected_failure": false,
+      "passed": true
+    },
+    {
+      "mode": "neuron",
+      "candidate": [
+        10,
+        10
+      ],
+      "injected_failure": true,
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "live_reference_equivalence": [
+    {
+      "scene": "Corozal",
+      "same_action_keys": true,
+      "actions": 500,
+      "action_mismatches": 0,
+      "same_episode_keys": true,
+      "episode_mismatches": 0
+    },
+    {
+      "scene": "Darden",
+      "same_action_keys": true,
+      "actions": 171,
+      "action_mismatches": 0,
+      "same_episode_keys": true,
+      "episode_mismatches": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "executed": true,
+  "before": 0.0,
+  "after": 0.0,
+  "delta": [
+    0.0,
+    -0.0,
+    -0.523598791729843
+  ],
+  "action": 0,
+  "collision": false,
+  "terminal": true,
+  "success": 1.0,
+  "spl": 0.11316240583960943,
+  "scene": "../data/scene_datasets/gibson_semantic//Darden.glb",
+  "episode_id": "7cc2e8bfe920f0f6f41d9d05f4f6adef2911e682dfc1585276cfd811d28093c8",
+  "metrics": {
+    "success": 1,
+    "spl": 0.11316240583960943,
+    "dts": 0.0,
+    "ppl": 0.11316240583960943,
+    "progress": 1.0,
+    "gspl": 0.11316240583960943,
+    "gppl": 0.11316240583960943,
+    "goal_distance": 2.668044556253519
+  }
+}

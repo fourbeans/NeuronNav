@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "scripts/promote_gibson_w4_sigma_d.py", line 195, in <module>
+    main()
+  File "scripts/promote_gibson_w4_sigma_d.py", line 79, in main
+    checkpoint = torch.load(str(last_checkpoint), map_location="cpu")
+  File "/mnt/jfzn/miniconda3/envs/poni/lib/python3.8/site-packages/torch/serialization.py", line 607, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/mnt/jfzn/miniconda3/envs/poni/lib/python3.8/site-packages/torch/serialization.py", line 882, in _load
+    result = unpickler.load()
+  File "/mnt/jfzn/miniconda3/envs/poni/lib/python3.8/site-packages/torch/serialization.py", line 875, in find_class
+    return super().find_class(mod_name, name)
+ModuleNotFoundError: No module named 'poni'
+wrote /mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/handoff/gibson_update30000_epoch12_w4.ckpt update=30000 epoch=12 next_batch_in_epoch=0

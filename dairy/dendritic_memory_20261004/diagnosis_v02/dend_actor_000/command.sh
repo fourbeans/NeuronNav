@@ -1,0 +1,2 @@
+#!/bin/sh
+/mnt/jfzn/miniconda3/envs/poni/bin/python -m dendritic_nav.diagnostics.trace_dend --experiment /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02 --output /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/diagnosis_v02/dend_actor_000 --role dev --actor-id 0 --actors 2 --episodes 2 --steps 1500 --seed 123 --checkpoint /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v02/learner/checkpoints/pilot_final.ckpt --visualize-every 1

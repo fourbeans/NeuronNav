@@ -1,0 +1,2 @@
+#!/bin/sh
+/mnt/jfzn/miniconda3/envs/poni/bin/python -m dendritic_nav.diagnostics.trace_dend --experiment /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/official_val_v04 --output /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/diagnosis_val_v04_darden_ep7/baseline_actor_002 --role val --actor-id 2 --actors 20 --episodes 7 --steps 4000 --seed 125 --checkpoint /mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/pilot_v04/learner/checkpoints/best_dev.ckpt --visualize-every 1 --baseline

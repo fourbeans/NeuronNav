@@ -1,0 +1,10 @@
+{
+  "plan_calls": 30450,
+  "plan_failures": 0,
+  "invalid_strict_calls": 0,
+  "no_path_calls": 634,
+  "reachable_tie_calls": 29816,
+  "forward_guarded_calls": 2020,
+  "selected_changed_stg_calls": 10969,
+  "max_abs_tie_cost_delta": 1.0231815394945443e-12
+}

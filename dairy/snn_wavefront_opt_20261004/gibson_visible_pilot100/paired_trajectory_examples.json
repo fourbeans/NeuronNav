@@ -1,0 +1,20 @@
+{
+  "improved": {
+    "key": [
+      "Collierville",
+      2
+    ],
+    "delta_spl": 1.0,
+    "candidate_steps": 24,
+    "old_steps": 44
+  },
+  "worsened": {
+    "key": [
+      "Wiconisco",
+      3
+    ],
+    "delta_spl": -0.9511762159105768,
+    "candidate_steps": 22,
+    "old_steps": 25
+  }
+}

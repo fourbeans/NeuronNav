@@ -1,0 +1,5 @@
+cap_cm=50
+cost_guard=1
+episodes_per_part=10
+gpu_profile=pilot_a
+angle_deg=none

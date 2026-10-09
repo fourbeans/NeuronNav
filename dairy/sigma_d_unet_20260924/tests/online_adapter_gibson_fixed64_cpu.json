@@ -1,0 +1,32 @@
+{
+  "area_shape": [
+    2,
+    1,
+    64,
+    64
+  ],
+  "checkpoint": "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/experiments/gibson_overfit64_q4095/checkpoints/best.ckpt",
+  "device": "cpu",
+  "input_shape": [
+    2,
+    17,
+    64,
+    64
+  ],
+  "object_shape": [
+    2,
+    17,
+    64,
+    64
+  ],
+  "partial_reset_keep_exact": true,
+  "passed": true,
+  "repeat_exact": true,
+  "reset_statistics": {
+    "episode_rows": 0,
+    "frame_jump_rows": 0,
+    "full_requests": 0,
+    "manual_rows": 1
+  },
+  "runtime_state_dict_keys": []
+}

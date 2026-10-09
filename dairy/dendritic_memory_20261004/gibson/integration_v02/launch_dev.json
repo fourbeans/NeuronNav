@@ -1,0 +1,73 @@
+{
+  "created": 1791049591.4428418,
+  "initial_free_mib": {
+    "0": 56292,
+    "1": 81038,
+    "2": 72660,
+    "3": 81038,
+    "4": 81038,
+    "5": 81038,
+    "6": 21395,
+    "7": 81038
+  },
+  "jobs": [
+    {
+      "pid": 3620124,
+      "gpu": 4,
+      "command": [
+        "/mnt/jfzn/miniconda3/envs/poni/bin/python",
+        "-u",
+        "-m",
+        "dendritic_nav.runners.collect_dend",
+        "--experiment",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02",
+        "--output",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02/dev_dend_000",
+        "--actor-id",
+        "0",
+        "--actors",
+        "2",
+        "--steps",
+        "1000",
+        "--role",
+        "dev",
+        "--seed",
+        "123",
+        "--episodes",
+        "2",
+        "--checkpoint",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02/checkpoints/initial.ckpt"
+      ],
+      "log": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02/logs_dev/dev_dend_000.log"
+    },
+    {
+      "pid": 3620128,
+      "gpu": 5,
+      "command": [
+        "/mnt/jfzn/miniconda3/envs/poni/bin/python",
+        "-u",
+        "-m",
+        "dendritic_nav.runners.collect_dend",
+        "--experiment",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02",
+        "--output",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02/dev_dend_001",
+        "--actor-id",
+        "1",
+        "--actors",
+        "2",
+        "--steps",
+        "1000",
+        "--role",
+        "dev",
+        "--seed",
+        "124",
+        "--episodes",
+        "2",
+        "--checkpoint",
+        "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02/checkpoints/initial.ckpt"
+      ],
+      "log": "/mnt/jfzn/shensj/PONI/dairy/dendritic_memory_20261004/gibson/integration_v02/logs_dev/dev_dend_001.log"
+    }
+  ]
+}

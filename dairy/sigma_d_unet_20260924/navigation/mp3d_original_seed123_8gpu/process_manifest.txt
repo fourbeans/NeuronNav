@@ -1,0 +1,11 @@
+val_part_0 gpu=0 pid=395024
+val_part_1 gpu=1 pid=395025
+val_part_2 gpu=2 pid=395026
+val_part_3 gpu=3 pid=395027
+val_part_4 gpu=4 pid=395028
+val_part_5 gpu=5 pid=395029
+val_part_6 gpu=6 pid=395030
+val_part_7 gpu=7 pid=395031
+val_part_8 gpu=0 pid=395032
+val_part_9 gpu=1 pid=395033
+val_part_10 gpu=2 pid=395034

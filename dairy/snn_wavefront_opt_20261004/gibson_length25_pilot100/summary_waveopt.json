@@ -1,0 +1,75 @@
+{
+  "dataset": "gibson",
+  "episodes": 100,
+  "episodes_per_scene": 20,
+  "metrics": {
+    "success": 0.77,
+    "spl": 0.37438951427744827,
+    "dts": 1.081848179373325
+  },
+  "baselines": {
+    "sigma_d_fmm": {
+      "cohort_match": true,
+      "metrics": {
+        "success": 0.68,
+        "spl": 0.39904185919477003,
+        "dts": 1.5585712418106288
+      },
+      "difference": {
+        "success": {
+          "mean": 0.09,
+          "paired_se": 0.04943110704237103,
+          "improved": 17,
+          "worsened": 8,
+          "equal": 75
+        },
+        "spl": {
+          "mean": -0.0246523449173217,
+          "paired_se": 0.031783901015381186,
+          "improved": 32,
+          "worsened": 47,
+          "equal": 21
+        },
+        "dts": {
+          "mean": -0.4767230624373038,
+          "paired_se": 0.3149183252500736,
+          "improved": 12,
+          "worsened": 27,
+          "equal": 61
+        }
+      }
+    },
+    "sigma_d_snn_old": {
+      "cohort_match": true,
+      "metrics": {
+        "success": 0.78,
+        "spl": 0.42269263035246085,
+        "dts": 0.8812400489889718
+      },
+      "difference": {
+        "success": {
+          "mean": -0.01,
+          "paired_se": 0.055949111076969135,
+          "improved": 15,
+          "worsened": 16,
+          "equal": 69
+        },
+        "spl": {
+          "mean": -0.04830311607501254,
+          "paired_se": 0.03660048241963959,
+          "improved": 41,
+          "worsened": 49,
+          "equal": 10
+        },
+        "dts": {
+          "mean": 0.2006081303843534,
+          "paired_se": 0.35093034743251994,
+          "improved": 18,
+          "worsened": 20,
+          "equal": 62
+        }
+      }
+    }
+  },
+  "run_root": "/mnt/jfzn/shensj/PONI/dairy/snn_wavefront_opt_20261004/gibson_length25_pilot100"
+}

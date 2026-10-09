@@ -1,0 +1,75 @@
+{
+  "dataset": "gibson",
+  "episodes": 5,
+  "episodes_per_scene": 1,
+  "metrics": {
+    "success": 0.8,
+    "spl": 0.48646887898020397,
+    "dts": 0.3715663292365546
+  },
+  "baselines": {
+    "sigma_d_fmm": {
+      "cohort_match": true,
+      "metrics": {
+        "success": 0.4,
+        "spl": 0.19996259061332605,
+        "dts": 4.728490836760247
+      },
+      "difference": {
+        "success": {
+          "mean": 0.4,
+          "paired_se": 0.24494897427831783,
+          "improved": 2,
+          "worsened": 0,
+          "equal": 3
+        },
+        "spl": {
+          "mean": 0.28650628836687797,
+          "paired_se": 0.1383056003267869,
+          "improved": 3,
+          "worsened": 1,
+          "equal": 1
+        },
+        "dts": {
+          "mean": -4.356924507523692,
+          "paired_se": 2.5810938496161153,
+          "improved": 0,
+          "worsened": 3,
+          "equal": 2
+        }
+      }
+    },
+    "sigma_d_snn_old": {
+      "cohort_match": true,
+      "metrics": {
+        "success": 1.0,
+        "spl": 0.646918793549983,
+        "dts": 0.006658945787403508
+      },
+      "difference": {
+        "success": {
+          "mean": -0.2,
+          "paired_se": 0.2,
+          "improved": 0,
+          "worsened": 1,
+          "equal": 4
+        },
+        "spl": {
+          "mean": -0.160449914569779,
+          "paired_se": 0.1852004780682064,
+          "improved": 2,
+          "worsened": 3,
+          "equal": 0
+        },
+        "dts": {
+          "mean": 0.3649073834491511,
+          "paired_se": 0.3649073834491511,
+          "improved": 1,
+          "worsened": 0,
+          "equal": 4
+        }
+      }
+    }
+  },
+  "run_root": "dairy/snn_wavefront_opt_20261004/gibson_length25_smoke1"
+}

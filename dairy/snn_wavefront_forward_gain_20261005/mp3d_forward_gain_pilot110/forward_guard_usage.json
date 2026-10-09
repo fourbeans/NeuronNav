@@ -1,0 +1,11 @@
+{
+  "plan_calls": 30220,
+  "plan_failures": 0,
+  "invalid_strict_calls": 0,
+  "no_path_calls": 648,
+  "reachable_tie_calls": 29572,
+  "forward_guarded_calls": 0,
+  "forward_gain_accepted_calls": 3669,
+  "selected_changed_stg_calls": 3669,
+  "max_abs_tie_cost_delta": 8.526512829121202e-13
+}

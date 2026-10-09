@@ -1,0 +1,285 @@
+{
+  "rows": [
+    {
+      "actor": 5,
+      "baseline": true,
+      "episode": 1,
+      "episode_id": "246d6816a3a2994cca75345bc227313b721865bf8b9320382ad14dd6ddaf2d65",
+      "success": 1.0,
+      "spl": 0.570218667462919,
+      "same_trajectory_hash": true,
+      "original_success": 1.0,
+      "statistics": {
+        "steps": 73,
+        "decisions": 70,
+        "non_anchor": 0,
+        "switches": 31,
+        "large_goal_jumps": 13,
+        "collisions": 0,
+        "unique_25cm_agent_cells": 28,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 0.0,
+        "mean_spatial_sacrifice": 0.0,
+        "visible_override_steps": 3,
+        "final_xy": [
+          9.3,
+          14.3
+        ]
+      }
+    },
+    {
+      "actor": 6,
+      "baseline": true,
+      "episode": 1,
+      "episode_id": "dc48e1617213f14fe321445961b7cd5940007db268c99785c7f49852de37a1b5",
+      "success": 1.0,
+      "spl": 0.19476400748985107,
+      "same_trajectory_hash": true,
+      "original_success": 1.0,
+      "statistics": {
+        "steps": 96,
+        "decisions": 78,
+        "non_anchor": 0,
+        "switches": 46,
+        "large_goal_jumps": 18,
+        "collisions": 0,
+        "unique_25cm_agent_cells": 65,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 0.0,
+        "mean_spatial_sacrifice": 0.0,
+        "visible_override_steps": 18,
+        "final_xy": [
+          21.55,
+          12.450000000000001
+        ]
+      }
+    },
+    {
+      "actor": 7,
+      "baseline": true,
+      "episode": 1,
+      "episode_id": "5a67085e171bfb83952b949b1443c70edaa963ac061fb5c3cb32698338f480db",
+      "success": 1.0,
+      "spl": 0.3206532928388511,
+      "same_trajectory_hash": true,
+      "original_success": 1.0,
+      "statistics": {
+        "steps": 40,
+        "decisions": 30,
+        "non_anchor": 0,
+        "switches": 18,
+        "large_goal_jumps": 4,
+        "collisions": 0,
+        "unique_25cm_agent_cells": 29,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 0.0,
+        "mean_spatial_sacrifice": 0.0,
+        "visible_override_steps": 10,
+        "final_xy": [
+          18.5,
+          13.4
+        ]
+      }
+    },
+    {
+      "actor": 16,
+      "baseline": true,
+      "episode": 1,
+      "episode_id": "08bdd0552d8a6c234059146fd4b4a662f538aa3ef8d168d05f9978dd4bbf56b3",
+      "success": 1.0,
+      "spl": 0.11066268989189364,
+      "same_trajectory_hash": true,
+      "original_success": 1.0,
+      "statistics": {
+        "steps": 375,
+        "decisions": 366,
+        "non_anchor": 0,
+        "switches": 139,
+        "large_goal_jumps": 44,
+        "collisions": 11,
+        "unique_25cm_agent_cells": 147,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 0.0,
+        "mean_spatial_sacrifice": 0.0,
+        "visible_override_steps": 9,
+        "final_xy": [
+          6.550000000000001,
+          9.3
+        ]
+      }
+    },
+    {
+      "actor": 16,
+      "baseline": true,
+      "episode": 2,
+      "episode_id": "c71201a64d540def9d62e1e8d15778d259fc448b84d2205a9591155e2d303c8d",
+      "success": 1.0,
+      "spl": 0.34422612983400996,
+      "same_trajectory_hash": true,
+      "original_success": 1.0,
+      "statistics": {
+        "steps": 48,
+        "decisions": 33,
+        "non_anchor": 0,
+        "switches": 23,
+        "large_goal_jumps": 8,
+        "collisions": 0,
+        "unique_25cm_agent_cells": 26,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 0.0,
+        "mean_spatial_sacrifice": 0.0,
+        "visible_override_steps": 15,
+        "final_xy": [
+          16.650000000000002,
+          8.25
+        ]
+      }
+    },
+    {
+      "actor": 5,
+      "baseline": false,
+      "episode": 1,
+      "episode_id": "246d6816a3a2994cca75345bc227313b721865bf8b9320382ad14dd6ddaf2d65",
+      "success": 0.0,
+      "spl": 0.0,
+      "same_trajectory_hash": true,
+      "original_success": 0.0,
+      "statistics": {
+        "steps": 500,
+        "decisions": 500,
+        "non_anchor": 499,
+        "switches": 376,
+        "large_goal_jumps": 196,
+        "collisions": 151,
+        "unique_25cm_agent_cells": 40,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 1.8023349944710998,
+        "mean_spatial_sacrifice": 0.05074923858046532,
+        "visible_override_steps": 0,
+        "final_xy": [
+          9.700000000000001,
+          12.950000000000001
+        ]
+      }
+    },
+    {
+      "actor": 6,
+      "baseline": false,
+      "episode": 1,
+      "episode_id": "dc48e1617213f14fe321445961b7cd5940007db268c99785c7f49852de37a1b5",
+      "success": 0.0,
+      "spl": 0.0,
+      "same_trajectory_hash": true,
+      "original_success": 0.0,
+      "statistics": {
+        "steps": 500,
+        "decisions": 500,
+        "non_anchor": 498,
+        "switches": 497,
+        "large_goal_jumps": 296,
+        "collisions": 0,
+        "unique_25cm_agent_cells": 53,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 3.0048167678876845,
+        "mean_spatial_sacrifice": 0.05305270478129387,
+        "visible_override_steps": 0,
+        "final_xy": [
+          14.600000000000001,
+          5.2
+        ]
+      }
+    },
+    {
+      "actor": 7,
+      "baseline": false,
+      "episode": 1,
+      "episode_id": "5a67085e171bfb83952b949b1443c70edaa963ac061fb5c3cb32698338f480db",
+      "success": 0.0,
+      "spl": 0.0,
+      "same_trajectory_hash": true,
+      "original_success": 0.0,
+      "statistics": {
+        "steps": 419,
+        "decisions": 415,
+        "non_anchor": 413,
+        "switches": 402,
+        "large_goal_jumps": 371,
+        "collisions": 0,
+        "unique_25cm_agent_cells": 21,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 4.879748722482741,
+        "mean_spatial_sacrifice": 0.0671096220612526,
+        "visible_override_steps": 4,
+        "final_xy": [
+          12.65,
+          11.55
+        ]
+      }
+    },
+    {
+      "actor": 16,
+      "baseline": false,
+      "episode": 1,
+      "episode_id": "08bdd0552d8a6c234059146fd4b4a662f538aa3ef8d168d05f9978dd4bbf56b3",
+      "success": 1.0,
+      "spl": 0.2971094165099284,
+      "same_trajectory_hash": true,
+      "original_success": 1.0,
+      "statistics": {
+        "steps": 202,
+        "decisions": 191,
+        "non_anchor": 191,
+        "switches": 156,
+        "large_goal_jumps": 95,
+        "collisions": 7,
+        "unique_25cm_agent_cells": 78,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 2.9153960957181444,
+        "mean_spatial_sacrifice": 0.04709075018763542,
+        "visible_override_steps": 11,
+        "final_xy": [
+          6.3500000000000005,
+          9.15
+        ]
+      }
+    },
+    {
+      "actor": 16,
+      "baseline": false,
+      "episode": 2,
+      "episode_id": "c71201a64d540def9d62e1e8d15778d259fc448b84d2205a9591155e2d303c8d",
+      "success": 1.0,
+      "spl": 0.35793920415132113,
+      "same_trajectory_hash": true,
+      "original_success": 1.0,
+      "statistics": {
+        "steps": 105,
+        "decisions": 92,
+        "non_anchor": 92,
+        "switches": 91,
+        "large_goal_jumps": 67,
+        "collisions": 0,
+        "unique_25cm_agent_cells": 27,
+        "selected_explored_gt_half": 0,
+        "selected_obstacle_gt_half": 0,
+        "mean_anchor_separation": 3.530607757589496,
+        "mean_spatial_sacrifice": 0.05288787931203842,
+        "visible_override_steps": 13,
+        "final_xy": [
+          16.6,
+          8.25
+        ]
+      }
+    }
+  ],
+  "all_reproduced_exactly": true
+}

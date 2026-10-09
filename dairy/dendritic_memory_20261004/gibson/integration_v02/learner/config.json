@@ -1,0 +1,12 @@
+{
+  "experiment": "dairy/dendritic_memory_20261004/gibson/integration_v02",
+  "steps": 512,
+  "batch": 2,
+  "window": 8,
+  "warmup": 0,
+  "update_every": 64,
+  "seed": 123,
+  "device": "cuda:0",
+  "idle_timeout": 3600,
+  "resume": false
+}

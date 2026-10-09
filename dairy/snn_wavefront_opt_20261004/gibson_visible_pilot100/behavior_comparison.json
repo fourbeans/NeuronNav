@@ -1,0 +1,505 @@
+{
+  "summary": {
+    "dataset": "gibson",
+    "episodes": 100,
+    "success_candidate_only": 12,
+    "success_old_only": 7,
+    "spl_mean_delta": 0.03356288399630259,
+    "candidate_mean_turns": 63.89,
+    "old_mean_turns": 74.31,
+    "candidate_mean_no_path_calls": 22.61,
+    "old_mean_no_path_calls": 22.03,
+    "candidate_mean_turn_fraction": 0.4535348247529316,
+    "old_mean_turn_fraction": 0.46133357335498004,
+    "candidate_mean_no_path_rate": 0.04787262032085561,
+    "old_mean_no_path_rate": 0.047328350299816524,
+    "candidate_mean_forward_stalls_proxy": 0.28,
+    "old_mean_forward_stalls_proxy": null,
+    "collision_measurement": "unavailable; forward stalls are only a proxy",
+    "old_mp3d_episode_trace": null
+  },
+  "worst_spl": [
+    {
+      "key": [
+        "Wiconisco",
+        3
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.9511762159105768,
+      "delta_success": -1.0,
+      "delta_spl": -0.9511762159105768,
+      "candidate_behavior": {
+        "turns": 11,
+        "plans": 22,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 6,
+        "plans": 25,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.24,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Corozal",
+        1
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.18477823764342333,
+      "old_spl": 1.0,
+      "delta_success": 0.0,
+      "delta_spl": -0.8152217623565767,
+      "candidate_behavior": {
+        "turns": 84,
+        "plans": 176,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4772727272727273,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 14,
+        "plans": 31,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.45161290322580644,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        2
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.6903292105551864,
+      "delta_success": -1.0,
+      "delta_spl": -0.6903292105551864,
+      "candidate_behavior": {
+        "turns": 13,
+        "plans": 26,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 48,
+        "plans": 83,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5783132530120482,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Collierville",
+        6
+      ],
+      "success": 0.0,
+      "old_success": 1.0,
+      "spl": 0.0,
+      "old_spl": 0.6712731020991948,
+      "delta_success": -1.0,
+      "delta_spl": -0.6712731020991948,
+      "candidate_behavior": {
+        "turns": 321,
+        "plans": 500,
+        "no_path": 320,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.642,
+        "no_path_rate": 0.64
+      },
+      "old_behavior": {
+        "turns": 49,
+        "plans": 87,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.5632183908045977,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        2
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.060535898477911305,
+      "old_spl": 0.6379693300609386,
+      "delta_success": 0.0,
+      "delta_spl": -0.5774334315830273,
+      "candidate_behavior": {
+        "turns": 98,
+        "plans": 219,
+        "no_path": 0,
+        "forward_stalls_proxy": 1,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4474885844748858,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 11,
+        "plans": 23,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.4782608695652174,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        3
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.39538841081246573,
+      "old_spl": 0.9203892636942627,
+      "delta_success": 0.0,
+      "delta_spl": -0.5250008528817969,
+      "candidate_behavior": {
+        "turns": 35,
+        "plans": 64,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.546875,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 10,
+        "plans": 23,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.43478260869565216,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        6
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.11458854662401596,
+      "old_spl": 0.632301062760951,
+      "delta_success": 0.0,
+      "delta_spl": -0.517712516136935,
+      "candidate_behavior": {
+        "turns": 112,
+        "plans": 323,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.34674922600619196,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 28,
+        "plans": 67,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.417910447761194,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        1
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.23439410504165298,
+      "old_spl": 0.7458232146522749,
+      "delta_success": 0.0,
+      "delta_spl": -0.5114291096106218,
+      "candidate_behavior": {
+        "turns": 120,
+        "plans": 250,
+        "no_path": 0,
+        "forward_stalls_proxy": 1,
+        "has_pose_trace": true,
+        "turn_fraction": 0.48,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 35,
+        "plans": 77,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.45454545454545453,
+        "no_path_rate": 0.0
+      }
+    }
+  ],
+  "best_spl": [
+    {
+      "key": [
+        "Darden",
+        12
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 0.48270688494484243,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 0.48270688494484243,
+      "candidate_behavior": {
+        "turns": 63,
+        "plans": 134,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4701492537313433,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 246,
+        "plans": 500,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.492,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        13
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.8964675594359788,
+      "old_spl": 0.3517713545801663,
+      "delta_success": 0.0,
+      "delta_spl": 0.5446962048558125,
+      "candidate_behavior": {
+        "turns": 11,
+        "plans": 20,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.55,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 28,
+        "plans": 50,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.56,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Darden",
+        14
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 1.0,
+      "old_spl": 0.39365622149846713,
+      "delta_success": 0.0,
+      "delta_spl": 0.6063437785015329,
+      "candidate_behavior": {
+        "turns": 8,
+        "plans": 24,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.3333333333333333,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 29,
+        "plans": 70,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.4142857142857143,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Corozal",
+        2
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.986230648528394,
+      "old_spl": 0.3362931900493514,
+      "delta_success": 0.0,
+      "delta_spl": 0.6499374584790427,
+      "candidate_behavior": {
+        "turns": 11,
+        "plans": 31,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.3548387096774194,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 88,
+        "plans": 144,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.6111111111111112,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        14
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.8591563597037547,
+      "old_spl": 0.1822052885536572,
+      "delta_success": 0.0,
+      "delta_spl": 0.6769510711500974,
+      "candidate_behavior": {
+        "turns": 15,
+        "plans": 34,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.4411764705882353,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 71,
+        "plans": 157,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.45222929936305734,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Collierville",
+        17
+      ],
+      "success": 1.0,
+      "old_success": 1.0,
+      "spl": 0.8718157662766646,
+      "old_spl": 0.1360894358642964,
+      "delta_success": 0.0,
+      "delta_spl": 0.7357263304123682,
+      "candidate_behavior": {
+        "turns": 20,
+        "plans": 39,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5128205128205128,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 82,
+        "plans": 199,
+        "no_path": 24,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.4120603015075377,
+        "no_path_rate": 0.12060301507537688
+      }
+    },
+    {
+      "key": [
+        "Collierville",
+        2
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 13,
+        "plans": 24,
+        "no_path": 0,
+        "forward_stalls_proxy": 1,
+        "has_pose_trace": true,
+        "turn_fraction": 0.5416666666666666,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 27,
+        "plans": 44,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.6136363636363636,
+        "no_path_rate": 0.0
+      }
+    },
+    {
+      "key": [
+        "Wiconisco",
+        11
+      ],
+      "success": 1.0,
+      "old_success": 0.0,
+      "spl": 1.0,
+      "old_spl": 0.0,
+      "delta_success": 1.0,
+      "delta_spl": 1.0,
+      "candidate_behavior": {
+        "turns": 5,
+        "plans": 23,
+        "no_path": 0,
+        "forward_stalls_proxy": 0,
+        "has_pose_trace": true,
+        "turn_fraction": 0.21739130434782608,
+        "no_path_rate": 0.0
+      },
+      "old_behavior": {
+        "turns": 249,
+        "plans": 500,
+        "no_path": 0,
+        "forward_stalls_proxy": null,
+        "has_pose_trace": false,
+        "turn_fraction": 0.498,
+        "no_path_rate": 0.0
+      }
+    }
+  ]
+}

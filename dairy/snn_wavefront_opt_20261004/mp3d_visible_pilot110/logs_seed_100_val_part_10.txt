@@ -1,0 +1,236 @@
+2026-10-04 17:20:46,337 =====> Time benchmarks
+2026-10-04 17:20:46,338 semantic_prediction  : 0.0659 secs
+2026-10-04 17:20:46,339 semantic_mapping     : 0.0194 secs
+2026-10-04 17:20:46,339 map_update           : 0.0005 secs
+2026-10-04 17:20:46,340 extra_inputs         : 0.0001 secs
+2026-10-04 17:20:46,340 goal_sampling        : 0.0248 secs
+2026-10-04 17:20:46,340 goal_map_building    : 0.0004 secs
+2026-10-04 17:20:46,340 plan_and_act         : 0.0688 secs
+2026-10-04 17:20:53,085 =====> Time benchmarks
+2026-10-04 17:20:53,086 semantic_prediction  : 0.0339 secs
+2026-10-04 17:20:53,087 semantic_mapping     : 0.0086 secs
+2026-10-04 17:20:53,087 map_update           : 0.0028 secs
+2026-10-04 17:20:53,087 extra_inputs         : 0.0001 secs
+2026-10-04 17:20:53,088 goal_sampling        : 0.0414 secs
+2026-10-04 17:20:53,088 goal_map_building    : 0.0005 secs
+2026-10-04 17:20:53,088 plan_and_act         : 0.0215 secs
+2026-10-04 17:21:00,259 =====> Time benchmarks
+2026-10-04 17:21:00,260 semantic_prediction  : 0.0298 secs
+2026-10-04 17:21:00,260 semantic_mapping     : 0.0066 secs
+2026-10-04 17:21:00,261 map_update           : 0.0020 secs
+2026-10-04 17:21:00,262 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:00,262 goal_sampling        : 0.0358 secs
+2026-10-04 17:21:00,262 goal_map_building    : 0.0006 secs
+2026-10-04 17:21:00,262 plan_and_act         : 0.0440 secs
+2026-10-04 17:21:07,158 =====> Time benchmarks
+2026-10-04 17:21:07,159 semantic_prediction  : 0.0284 secs
+2026-10-04 17:21:07,159 semantic_mapping     : 0.0062 secs
+2026-10-04 17:21:07,159 map_update           : 0.0014 secs
+2026-10-04 17:21:07,160 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:07,160 goal_sampling        : 0.0329 secs
+2026-10-04 17:21:07,160 goal_map_building    : 0.0006 secs
+2026-10-04 17:21:07,161 plan_and_act         : 0.0441 secs
+2026-10-04 17:21:13,042 =====> Time benchmarks
+2026-10-04 17:21:13,043 semantic_prediction  : 0.0256 secs
+2026-10-04 17:21:13,044 semantic_mapping     : 0.0060 secs
+2026-10-04 17:21:13,044 map_update           : 0.0018 secs
+2026-10-04 17:21:13,045 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:13,045 goal_sampling        : 0.0322 secs
+2026-10-04 17:21:13,045 goal_map_building    : 0.0006 secs
+2026-10-04 17:21:13,045 plan_and_act         : 0.0305 secs
+2026-10-04 17:21:20,521 =====> Time benchmarks
+2026-10-04 17:21:20,522 semantic_prediction  : 0.0289 secs
+2026-10-04 17:21:20,522 semantic_mapping     : 0.0064 secs
+2026-10-04 17:21:20,523 map_update           : 0.0016 secs
+2026-10-04 17:21:20,523 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:20,523 goal_sampling        : 0.0317 secs
+2026-10-04 17:21:20,523 goal_map_building    : 0.0004 secs
+2026-10-04 17:21:20,524 plan_and_act         : 0.0586 secs
+2026-10-04 17:21:27,574 =====> Time benchmarks
+2026-10-04 17:21:27,575 semantic_prediction  : 0.0273 secs
+2026-10-04 17:21:27,575 semantic_mapping     : 0.0062 secs
+2026-10-04 17:21:27,575 map_update           : 0.0017 secs
+2026-10-04 17:21:27,577 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:27,577 goal_sampling        : 0.0339 secs
+2026-10-04 17:21:27,577 goal_map_building    : 0.0007 secs
+2026-10-04 17:21:27,577 plan_and_act         : 0.0482 secs
+2026-10-04 17:21:34,016 =====> Time benchmarks
+2026-10-04 17:21:34,018 semantic_prediction  : 0.0270 secs
+2026-10-04 17:21:34,018 semantic_mapping     : 0.0064 secs
+2026-10-04 17:21:34,019 map_update           : 0.0021 secs
+2026-10-04 17:21:34,020 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:34,020 goal_sampling        : 0.0346 secs
+2026-10-04 17:21:34,020 goal_map_building    : 0.0007 secs
+2026-10-04 17:21:34,020 plan_and_act         : 0.0361 secs
+2026-10-04 17:21:39,765 =====> Time benchmarks
+2026-10-04 17:21:39,766 semantic_prediction  : 0.0256 secs
+2026-10-04 17:21:39,766 semantic_mapping     : 0.0062 secs
+2026-10-04 17:21:39,766 map_update           : 0.0017 secs
+2026-10-04 17:21:39,767 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:39,768 goal_sampling        : 0.0343 secs
+2026-10-04 17:21:39,768 goal_map_building    : 0.0007 secs
+2026-10-04 17:21:39,768 plan_and_act         : 0.0261 secs
+2026-10-04 17:21:46,070 =====> Time benchmarks
+2026-10-04 17:21:46,071 semantic_prediction  : 0.0268 secs
+2026-10-04 17:21:46,071 semantic_mapping     : 0.0071 secs
+2026-10-04 17:21:46,071 map_update           : 0.0026 secs
+2026-10-04 17:21:46,072 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:46,072 goal_sampling        : 0.0342 secs
+2026-10-04 17:21:46,073 goal_map_building    : 0.0006 secs
+2026-10-04 17:21:46,073 plan_and_act         : 0.0325 secs
+2026-10-04 17:21:53,001 ========> # steps: 500, fps:  7.480
+2026-10-04 17:21:53,002 distance_to_goal/goal_distance/reward/softspl/spl/success : 8.4370/3.4830/-9.9541/0.0000/0.0000/0.0000 (1)
+2026-10-04 17:21:53,236 =====> Time benchmarks
+2026-10-04 17:21:53,237 semantic_prediction  : 0.0289 secs
+2026-10-04 17:21:53,237 semantic_mapping     : 0.0078 secs
+2026-10-04 17:21:53,238 map_update           : 0.0017 secs
+2026-10-04 17:21:53,238 extra_inputs         : 0.0001 secs
+2026-10-04 17:21:53,239 goal_sampling        : 0.0337 secs
+2026-10-04 17:21:53,239 goal_map_building    : 0.0005 secs
+2026-10-04 17:21:53,239 plan_and_act         : 0.0445 secs
+2026-10-04 17:22:05,548 ========> # steps: 550, fps:  6.927
+2026-10-04 17:22:05,550 distance_to_goal/goal_distance/reward/softspl/spl/success : 8.4370/3.4830/-9.9541/0.0000/0.0000/0.0000 (1)
+2026-10-04 17:22:05,644 =====> Time benchmarks
+2026-10-04 17:22:05,645 semantic_prediction  : 0.0284 secs
+2026-10-04 17:22:05,645 semantic_mapping     : 0.0062 secs
+2026-10-04 17:22:05,645 map_update           : 0.0017 secs
+2026-10-04 17:22:05,645 extra_inputs         : 0.0001 secs
+2026-10-04 17:22:05,646 goal_sampling        : 0.0318 secs
+2026-10-04 17:22:05,647 goal_map_building    : 0.0005 secs
+2026-10-04 17:22:05,647 plan_and_act         : 0.0201 secs
+2026-10-04 17:22:17,901 ========> # steps: 600, fps:  6.540
+2026-10-04 17:22:17,902 distance_to_goal/goal_distance/reward/softspl/spl/success : 4.2271/3.7280/-2.1241/0.2198/0.2207/0.5000 (2)
+2026-10-04 17:22:18,122 =====> Time benchmarks
+2026-10-04 17:22:18,122 semantic_prediction  : 0.0274 secs
+2026-10-04 17:22:18,123 semantic_mapping     : 0.0070 secs
+2026-10-04 17:22:18,123 map_update           : 0.0021 secs
+2026-10-04 17:22:18,123 extra_inputs         : 0.0001 secs
+2026-10-04 17:22:18,124 goal_sampling        : 0.0333 secs
+2026-10-04 17:22:18,124 goal_map_building    : 0.0009 secs
+2026-10-04 17:22:18,124 plan_and_act         : 0.0187 secs
+2026-10-04 17:22:30,325 ========> # steps: 650, fps:  6.240
+2026-10-04 17:22:30,326 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.8250/3.4825/0.2841/0.3209/0.3228/0.6667 (3)
+2026-10-04 17:22:30,529 =====> Time benchmarks
+2026-10-04 17:22:30,529 semantic_prediction  : 0.0273 secs
+2026-10-04 17:22:30,529 semantic_mapping     : 0.0061 secs
+2026-10-04 17:22:30,530 map_update           : 0.0015 secs
+2026-10-04 17:22:30,530 extra_inputs         : 0.0001 secs
+2026-10-04 17:22:30,530 goal_sampling        : 0.0317 secs
+2026-10-04 17:22:30,531 goal_map_building    : 0.0006 secs
+2026-10-04 17:22:30,531 plan_and_act         : 0.0227 secs
+2026-10-04 17:22:41,771 ========> # steps: 700, fps:  6.054
+2026-10-04 17:22:41,772 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.1260/3.7775/1.7964/0.3726/0.3749/0.7500 (4)
+2026-10-04 17:22:41,882 =====> Time benchmarks
+2026-10-04 17:22:41,883 semantic_prediction  : 0.0283 secs
+2026-10-04 17:22:41,883 semantic_mapping     : 0.0066 secs
+2026-10-04 17:22:41,883 map_update           : 0.0023 secs
+2026-10-04 17:22:41,883 extra_inputs         : 0.0001 secs
+2026-10-04 17:22:41,884 goal_sampling        : 0.0326 secs
+2026-10-04 17:22:41,885 goal_map_building    : 0.0007 secs
+2026-10-04 17:22:41,885 plan_and_act         : 0.0193 secs
+2026-10-04 17:22:48,071 ========> # steps: 750, fps:  6.152
+2026-10-04 17:22:48,072 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.1260/3.7775/1.7964/0.3726/0.3749/0.7500 (4)
+2026-10-04 17:22:48,168 =====> Time benchmarks
+2026-10-04 17:22:48,169 semantic_prediction  : 0.0261 secs
+2026-10-04 17:22:48,169 semantic_mapping     : 0.0059 secs
+2026-10-04 17:22:48,169 map_update           : 0.0024 secs
+2026-10-04 17:22:48,169 extra_inputs         : 0.0001 secs
+2026-10-04 17:22:48,169 goal_sampling        : 0.0344 secs
+2026-10-04 17:22:48,171 goal_map_building    : 0.0008 secs
+2026-10-04 17:22:48,171 plan_and_act         : 0.0202 secs
+2026-10-04 17:22:55,152 ========> # steps: 800, fps:  6.202
+2026-10-04 17:22:55,153 distance_to_goal/goal_distance/reward/softspl/spl/success : 3.0944/3.7928/0.6784/0.2981/0.2999/0.6000 (5)
+2026-10-04 17:22:55,275 =====> Time benchmarks
+2026-10-04 17:22:55,276 semantic_prediction  : 0.0266 secs
+2026-10-04 17:22:55,276 semantic_mapping     : 0.0069 secs
+2026-10-04 17:22:55,276 map_update           : 0.0019 secs
+2026-10-04 17:22:55,276 extra_inputs         : 0.0001 secs
+2026-10-04 17:22:55,276 goal_sampling        : 0.0366 secs
+2026-10-04 17:22:55,278 goal_map_building    : 0.0008 secs
+2026-10-04 17:22:55,278 plan_and_act         : 0.0244 secs
+2026-10-04 17:23:02,255 ========> # steps: 850, fps:  6.245
+2026-10-04 17:23:02,256 distance_to_goal/goal_distance/reward/softspl/spl/success : 3.0944/3.7928/0.6784/0.2981/0.2999/0.6000 (5)
+2026-10-04 17:23:02,364 =====> Time benchmarks
+2026-10-04 17:23:02,365 semantic_prediction  : 0.0259 secs
+2026-10-04 17:23:02,365 semantic_mapping     : 0.0062 secs
+2026-10-04 17:23:02,365 map_update           : 0.0021 secs
+2026-10-04 17:23:02,365 extra_inputs         : 0.0001 secs
+2026-10-04 17:23:02,366 goal_sampling        : 0.0347 secs
+2026-10-04 17:23:02,366 goal_map_building    : 0.0008 secs
+2026-10-04 17:23:02,367 plan_and_act         : 0.0228 secs
+2026-10-04 17:23:08,317 ========> # steps: 900, fps:  6.331
+2026-10-04 17:23:08,318 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.5851/4.1965/1.8213/0.3401/0.3421/0.6667 (6)
+2026-10-04 17:23:08,411 =====> Time benchmarks
+2026-10-04 17:23:08,412 semantic_prediction  : 0.0258 secs
+2026-10-04 17:23:08,412 semantic_mapping     : 0.0056 secs
+2026-10-04 17:23:08,413 map_update           : 0.0018 secs
+2026-10-04 17:23:08,413 extra_inputs         : 0.0001 secs
+2026-10-04 17:23:08,413 goal_sampling        : 0.0335 secs
+2026-10-04 17:23:08,414 goal_map_building    : 0.0008 secs
+2026-10-04 17:23:08,414 plan_and_act         : 0.0197 secs
+2026-10-04 17:23:13,748 ========> # steps: 950, fps:  6.437
+2026-10-04 17:23:13,750 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.5851/4.1965/1.8213/0.3401/0.3421/0.6667 (6)
+2026-10-04 17:23:13,836 =====> Time benchmarks
+2026-10-04 17:23:13,837 semantic_prediction  : 0.0261 secs
+2026-10-04 17:23:13,837 semantic_mapping     : 0.0062 secs
+2026-10-04 17:23:13,837 map_update           : 0.0012 secs
+2026-10-04 17:23:13,838 extra_inputs         : 0.0001 secs
+2026-10-04 17:23:13,838 goal_sampling        : 0.0337 secs
+2026-10-04 17:23:13,839 goal_map_building    : 0.0009 secs
+2026-10-04 17:23:13,839 plan_and_act         : 0.0209 secs
+2026-10-04 17:23:19,308 ========> # steps: 1000, fps:  6.529
+2026-10-04 17:23:19,309 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.5851/4.1965/1.8213/0.3401/0.3421/0.6667 (6)
+2026-10-04 17:23:19,379 =====> Time benchmarks
+2026-10-04 17:23:19,380 semantic_prediction  : 0.0255 secs
+2026-10-04 17:23:19,380 semantic_mapping     : 0.0055 secs
+2026-10-04 17:23:19,380 map_update           : 0.0017 secs
+2026-10-04 17:23:19,380 extra_inputs         : 0.0001 secs
+2026-10-04 17:23:19,380 goal_sampling        : 0.0325 secs
+2026-10-04 17:23:19,382 goal_map_building    : 0.0008 secs
+2026-10-04 17:23:19,382 plan_and_act         : 0.0272 secs
+2026-10-04 17:23:27,362 ========> # steps: 1050, fps:  6.513
+2026-10-04 17:23:27,363 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.2191/4.7586/2.8653/0.3568/0.3587/0.7143 (7)
+2026-10-04 17:23:27,480 =====> Time benchmarks
+2026-10-04 17:23:27,481 semantic_prediction  : 0.0274 secs
+2026-10-04 17:23:27,482 semantic_mapping     : 0.0051 secs
+2026-10-04 17:23:27,482 map_update           : 0.0015 secs
+2026-10-04 17:23:27,482 extra_inputs         : 0.0001 secs
+2026-10-04 17:23:27,482 goal_sampling        : 0.0324 secs
+2026-10-04 17:23:27,483 goal_map_building    : 0.0008 secs
+2026-10-04 17:23:27,483 plan_and_act         : 0.0179 secs
+2026-10-04 17:23:34,349 ========> # steps: 1100, fps:  6.540
+2026-10-04 17:23:34,350 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.8847/5.3992/2.7620/0.3418/0.3139/0.6250 (8)
+2026-10-04 17:23:34,425 =====> Time benchmarks
+2026-10-04 17:23:34,426 semantic_prediction  : 0.0269 secs
+2026-10-04 17:23:34,426 semantic_mapping     : 0.0057 secs
+2026-10-04 17:23:34,426 map_update           : 0.0015 secs
+2026-10-04 17:23:34,426 extra_inputs         : 0.0001 secs
+2026-10-04 17:23:34,426 goal_sampling        : 0.0337 secs
+2026-10-04 17:23:34,427 goal_map_building    : 0.0007 secs
+2026-10-04 17:23:34,428 plan_and_act         : 0.0194 secs
+2026-10-04 17:23:41,482 ========> # steps: 1150, fps:  6.559
+2026-10-04 17:23:41,483 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.8847/5.3992/2.7620/0.3418/0.3139/0.6250 (8)
+2026-10-04 17:23:41,558 =====> Time benchmarks
+2026-10-04 17:23:41,559 semantic_prediction  : 0.0263 secs
+2026-10-04 17:23:41,559 semantic_mapping     : 0.0059 secs
+2026-10-04 17:23:41,559 map_update           : 0.0016 secs
+2026-10-04 17:23:41,560 extra_inputs         : 0.0001 secs
+2026-10-04 17:23:41,561 goal_sampling        : 0.0301 secs
+2026-10-04 17:23:41,561 goal_map_building    : 0.0006 secs
+2026-10-04 17:23:41,561 plan_and_act         : 0.0280 secs
+2026-10-04 17:23:52,989 ========> # steps: 1200, fps:  6.423
+2026-10-04 17:23:52,990 distance_to_goal/goal_distance/reward/softspl/spl/success : 2.5688/5.6666/3.4789/0.3743/0.3499/0.6667 (9)
+2026-10-04 17:23:53,082 =====> Time benchmarks
+2026-10-04 17:23:53,083 semantic_prediction  : 0.0275 secs
+2026-10-04 17:23:53,083 semantic_mapping     : 0.0062 secs
+2026-10-04 17:23:53,084 map_update           : 0.0017 secs
+2026-10-04 17:23:53,084 extra_inputs         : 0.0001 secs
+2026-10-04 17:23:53,084 goal_sampling        : 0.0310 secs
+2026-10-04 17:23:53,085 goal_map_building    : 0.0006 secs
+2026-10-04 17:23:53,085 plan_and_act         : 0.0199 secs
+2026-10-04 17:23:53,411 Average episode reward: 3.5901
+2026-10-04 17:23:53,411 Average episode goal_distance: 5.3571
+2026-10-04 17:23:53,411 Average episode distance_to_goal: 2.3150
+2026-10-04 17:23:53,411 Average episode success: 0.7000
+2026-10-04 17:23:53,412 Average episode spl: 0.3639
+2026-10-04 17:23:53,412 Average episode softspl: 0.3852

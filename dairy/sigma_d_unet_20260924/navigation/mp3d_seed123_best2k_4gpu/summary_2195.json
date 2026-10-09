@@ -1,0 +1,49 @@
+{
+  "episodes": 2195,
+  "metrics": {
+    "distance_to_goal": {
+      "mean": 5.236940907938501,
+      "standard_error": 0.14267664988698162,
+      "std": 6.68451905513211
+    },
+    "spl": {
+      "mean": 0.1181892402522045,
+      "standard_error": 0.004625261312253501,
+      "std": 0.21669731803497388
+    },
+    "success": {
+      "mean": 0.3052391799544419,
+      "standard_error": 0.009829253511333402,
+      "std": 0.4605086567863646
+    }
+  },
+  "part_episode_counts": {
+    "val_part_0": 200,
+    "val_part_1": 201,
+    "val_part_10": 198,
+    "val_part_2": 198,
+    "val_part_3": 197,
+    "val_part_4": 200,
+    "val_part_5": 200,
+    "val_part_6": 200,
+    "val_part_7": 201,
+    "val_part_8": 200,
+    "val_part_9": 200
+  },
+  "parts": 11,
+  "run_root": "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu",
+  "schema": "mp3d-sigma-d-navigation-summary-v1",
+  "source_stats": [
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_0/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_1/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_10/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_2/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_3/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_4/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_5/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_6/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_7/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_8/stats.json",
+    "/mnt/jfzn/shensj/PONI/dairy/sigma_d_unet_20260924/navigation/mp3d_seed123_best2k_4gpu/tb_seed_100_val_part_9/stats.json"
+  ]
+}

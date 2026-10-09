@@ -1,0 +1,122 @@
+{
+  "episodes": 2195,
+  "snn_part_counts": {
+    "0": 200,
+    "1": 201,
+    "10": 198,
+    "2": 198,
+    "3": 197,
+    "4": 200,
+    "5": 200,
+    "6": 200,
+    "7": 201,
+    "8": 200,
+    "9": 200
+  },
+  "astar_part_counts": {
+    "0": 200,
+    "1": 201,
+    "10": 198,
+    "2": 198,
+    "3": 197,
+    "4": 200,
+    "5": 200,
+    "6": 200,
+    "7": 201,
+    "8": 200,
+    "9": 200
+  },
+  "metrics": {
+    "success": {
+      "snn": 0.29931662870159453,
+      "astar": 0.3052391799544419,
+      "snn_minus_astar": {
+        "mean": -0.00592255125284738,
+        "paired_se": 0.009032711836522034,
+        "improved": 190,
+        "worsened": 203,
+        "equal": 1802
+      }
+    },
+    "spl": {
+      "snn": 0.12177394833034676,
+      "astar": 0.11818924025220447,
+      "snn_minus_astar": {
+        "mean": 0.0035847080781422585,
+        "paired_se": 0.004092745289053528,
+        "improved": 450,
+        "worsened": 392,
+        "equal": 1353
+      }
+    },
+    "distance_to_goal": {
+      "snn": 5.336066075005255,
+      "astar": 5.236940907938501,
+      "snn_minus_astar": {
+        "mean": 0.09912516706675378,
+        "paired_se": 0.09824803243885684,
+        "improved": 1070,
+        "worsened": 1073,
+        "equal": 52
+      }
+    }
+  },
+  "success_snn_only": 190,
+  "success_astar_only": 203,
+  "success_flip_endpoints": {
+    "snn_only_astar_median_remaining_m": 2.33171808719635,
+    "astar_only_snn_median_remaining_m": 2.059079885482788,
+    "astar_only_snn_within_0_1m": 11,
+    "astar_only_snn_within_0_25m": 30,
+    "astar_only_snn_within_0_5m": 40,
+    "astar_only_snn_within_1m": 61,
+    "astar_only_snn_within_2m": 100,
+    "astar_only_snn_over_5m": 64
+  },
+  "goal_distance_quartiles": [
+    {
+      "min_m": 1.0024,
+      "max_m": 3.238825,
+      "episodes": 549,
+      "snn_success": 0.48816029143898,
+      "astar_success": 0.4681238615664845,
+      "snn_spl": 0.17683374586076128,
+      "astar_spl": 0.15864691109264986,
+      "snn_only_success": 73,
+      "astar_only_success": 62
+    },
+    {
+      "min_m": 3.238825,
+      "max_m": 6.28698,
+      "episodes": 548,
+      "snn_success": 0.3613138686131387,
+      "astar_success": 0.36678832116788324,
+      "snn_spl": 0.150814291999147,
+      "astar_spl": 0.14516441931579516,
+      "snn_only_success": 55,
+      "astar_only_success": 58
+    },
+    {
+      "min_m": 6.28698,
+      "max_m": 10.82735,
+      "episodes": 549,
+      "snn_success": 0.2586520947176685,
+      "astar_success": 0.2750455373406193,
+      "snn_spl": 0.11504509370038507,
+      "astar_spl": 0.11650589884662434,
+      "snn_only_success": 42,
+      "astar_only_success": 51
+    },
+    {
+      "min_m": 10.82735,
+      "max_m": 29.69774,
+      "episodes": 549,
+      "snn_success": 0.08925318761384335,
+      "astar_success": 0.1111111111111111,
+      "snn_spl": 0.044455558561947564,
+      "astar_spl": 0.052488866870440014,
+      "snn_only_success": 20,
+      "astar_only_success": 32
+    }
+  ]
+}

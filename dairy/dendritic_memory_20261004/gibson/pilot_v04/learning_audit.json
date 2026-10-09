@@ -1,0 +1,27 @@
+{
+  "environment_steps": 54700,
+  "decisions": 51512,
+  "updates": 625,
+  "parameter_max_abs_changes": {
+    "cell.gain": 0.04153335094451904,
+    "cell.mix": 0.042310357093811035,
+    "cell.leaks": 0.0,
+    "cell.projections.0.weight": 0.019167602062225342,
+    "cell.projections.0.mask": 0.0,
+    "cell.projections.1.weight": 0.027753176167607307,
+    "cell.projections.1.mask": 0.0,
+    "cell.projections.2.weight": 0.042625635862350464,
+    "cell.projections.2.mask": 0.0,
+    "cell.projections.3.weight": 0.018749698996543884,
+    "cell.projections.3.mask": 0.0,
+    "encoder.weight": 0.06401777267456055,
+    "encoder.mask": 0.0,
+    "interaction_head.weight": 0.03793910890817642,
+    "value_head.weight": 0.022433863952755928,
+    "value_head.bias": 0.00748642859980464
+  },
+  "mean_dendrite_active_fraction": 0.08480112581409964,
+  "steps_with_nonzero_residual": 19899,
+  "replay_greedy_goal_changes": 1162,
+  "note": "Training/inference connectivity audit, NOT a navigation improvement metric"
+}
